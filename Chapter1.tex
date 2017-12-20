@@ -1,0 +1,146 @@
+\selectlanguage{english}
+\chapter{The Standard Model and beyond}
+\label{Chapter1}
+%SourceDoc tesi.tex
+
+Particle Physics studies the building blocks of the matter, the so called fundamental particle, and how they are governed by the four fundamental forces\footnote{In the thesis, Natural Units will be used: $c=\hbar=1$,  where $\hbar=h/2\pi=6.58211889(26)\cdot10^{-23}MeV s$ and $c=299792458~ms^{-1}$.}. \\
+The best theory, explaining our  understanding of these particles and forces, is the \textit{Standard Model} (SM): developed during the 1970s, it has successfully explained almost all experimental results and precisely predicted a wide variety of physical phenomena. \\
+This chapter will describe in details the Standard Model and some theories developed in order to solve some unanswered questions.
+
+\section{The Standard Model}
+\label{cap1:SM}
+\subsection{Fundamental Particles}
+\label{cap1:pi}
+All matter around us is made of elementary particles, the building blocks of matter. These particles are divided into two groups: \textit{leptons}, with an entire value of electric charge, and \textit{quarks}, with a fractional charge. Each group consists of six particles, which are related in pairs, or generations. The six quarks are paired in the three generations: the up quark and the down quark form the first generation, followed by the charm quark and strange quark, then the top quark and bottom (or beauty) quark.  The six leptons are similarly arranged in three generations: the electron and the electron neutrino, the muon and the muon neutrino, and the tau and the tau neutrino. While electron, muon and tau are charged particles, the neutrinos are electrically neutral. In table \ref{leptonsSM} and \ref{quarkSM}, the features of leptons and quarks.
+\begin{table}[ht]	
+	\begin{center}
+		\begin{tabular}{|ccc|}
+			\hline     & \textbf{Leptons} &   \\
+			\hline   Flavor & Charge & Mass[MeV]  \\
+			\hline
+			\hline
+			 neutrino e. ($\nu_{e}$) & 0 & $<0.002$   \\
+			 electron ($e$) & -1 & 0.511   \\
+			\hline
+			 neutrino mu ($\nu_{\mu}$) & 0 & $<0.19$   \\
+			 muon ($\mu$) & -1 & 105.66   \\
+			\hline
+			 neutrino tau ($\nu_{\tau}$) & 0 & $<18.2$ \\
+			 tau ($\tau$) & -1 & 1776.86$\pm$0.12  \\
+			\hline
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Standard Model leptons features \cite{PDG}.}
+	\label{leptonsSM}
+\end{table}
+
+\begin{table}[htbp]	
+	\begin{center}
+		\begin{tabular}{|ccc|}
+			\hline    & \textbf{Quark} &   \\
+			\hline   Flavor & Carica & Massa[GeV]  \\
+			\hline
+			\hline
+			up (\emph{u}) & +2/3 & 0.0022$^{+0.0006}_{-0.0004}$ \\   
+			down (\emph{d}) & -1/3 & 0.0047$^{+0.0005}_{-0.0004}$ \\
+			\hline
+			charm (\emph{c}) & +2/3 & $1.28\pm3$ \\
+			strange (\emph{s}) & -1/3 & $0.096\pm0.084$ \\
+			\hline
+			top (\emph{t}) & +2/3 & $173.1\pm0.6$ \\
+			bottom (\emph{b}) & -1/3 & 4.18$^{+0.04}_{-0.03}$ \\   
+			\hline
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Standard Model quarks features \cite{PDG}.}
+	\label{quarkSM}
+\end{table}
+
+Beside these leptons and quarks, there are other particles responsible of carrying the fundamental forces, the so called \textit{bosons}. The Electromagnetic Force, responsible of all eletrical and magnetic phenomena, is mediated by the phtons {$\gamma$}; the Weak Force, responsible of some decays, is mediate by $W^{\pm}$ and $Z$ bosons; the Strong Force, responsible for example of the atomic structure, is mediated by the gluons ($g$). Last fundamental force, not yet included in the SM, is the Gravity that is the weakest. In table \ref{bosonsSM} the features of the bosons.
+\begin{table}[htbp]	
+	\begin{center}
+		\begin{tabular}{|cccc|}
+			\hline    Bosons & Interaction & Charge & Mass[GeV]  \\
+			\hline
+			\hline
+			 photon ($\gamma$) &  Electromagnetic & 0 & 0   \\
+			 \hline
+			 $W^{\pm}$ & Weak & $\pm$1 & 80.385$\pm$0.015   \\
+			 \hline 
+             	 	 $Z^{0}$ & Weak & 0 & 91.1876$\pm$0.0021   \\
+			 \hline
+			 gluoni & Strong & 0 & 0 \\
+			\hline
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Standard Model bosons features \cite{PDG}.}
+	\label{bosonsSM}
+\end{table}
+
+\subsection{Gauge Symmetries}
+\label{cap1:gaugeSymm}
+The present belief is that all particles interactions may be dictated by the so called \textit{local gauge symmetries} and this is connected with the idea that  the conserved physical quantities (such as electric charge) are conserved in local regions of space and not just globally\cite{HalzenMartin}. \\
+%The connection between symmetries and conservation laws is best discussed in the framework of Lagrangian Field Theory.\\
+The fundamental quantity in classical mechanics is the action \textit{S}, the time integral of the Lagrangian \textit{L}:
+\begin{equation}
+S = \int L\, dt = \int \mathcal{L}(\phi, \partial \phi / \partial x_{\mu}) \,d^{4}x
+\end{equation}
+where $\mathcal{L}$ is the Lagrangian Density\footnote{however, following standard use in field theory, we will often refer to $\mathcal{L}$ simply Lagrangian.}, 
+and $\phi$ is the filed, itself a function of the continuous parameters $x_{\mu}$ \cite{Peskin}\cite{Maggiore}.
+%\begin{equation}
+%L \equiv T - V
+%\end{equation}
+%where T and V are the kinetic and potential energy of the system respectively.
+The \textit{principle of least action} states that fixed the values of the coordinates at the initial time $t_{in}$ and at the final time $t_{f}$, then classical trajectory which satisfies these conditions is an extremum of the action. This leads to the \textit{Euler-Lagrange} equations (\ref{Eul_Lagr_Eq})
+from which can be obtained the particle equations of motion.
+\begin{equation}
+\frac{\partial \mathcal{L}}{\partial \phi} - \frac{\partial}{\partial x_{\mu}}\frac{\partial \mathcal{L}}{\partial(\partial \phi / \partial x_{\mu})} = 0
+\label{Eul_Lagr_Eq}
+\end{equation}
+%The relationship between symmetries and conservation laws is summarized in \textit{Noether's theorem}: 
+
+\subsubsection{QED}\index{QED}
+%Quantum electrodynamics (QED) describes the interactions between photons and electrons. 
+The interaction of electron with photon is described by the Quantum Electrodynamics. Its Lagrangian is
+%Its motion is described by the Dirac Equation that follow from
+% while the Dirac equation describes its motion. It can be shown Dirac equation follows from
+\begin{equation}
+\mathcal{L} = \bar{\psi}(i\gamma^{\mu}\partial_{\mu}-m)\psi
+\label{L_QED}
+\end{equation}
+where complex field $\psi$ stands for the electron with mass m. Its equation of motion can be deduced by the Dirac Equation, obtained substituting \ref{L_QED} in \ref{Eul_Lagr_Eq}.\\
+It can be shown that \ref{L_QED} is invariant under the phase transformation:
+\begin{equation}
+\psi(x)\to e^{i\alpha} \psi(x)
+\label{global_trans}
+\end{equation}
+with $\alpha$ a real constant; according to Noether's theorem, it implies the existence of a conserved current.
+In this case, known as \textit{global "gauge" invariance}, once the value of $\alpha$ is fixed, it is specified for all space and time. \\
+More interesting is the case in which the parameter $\alpha$ depends on space and time in a completely arbitrary way and the Lagrangian (\ref{L_QED}) is now not invariant:
+\begin{equation}
+\psi(x)\to e^{i\alpha(x)} \psi(x)
+\label{local_trans}
+\end{equation}
+%This is know as \textit{local gauge invariance}. 
+In oder to restore the Lagrangian invariance, a new modified derivative $D_{\mu}$, that transforms covariantly under phase transformations, must be introduced: 
+\begin{equation}
+D_{\mu}\psi(x)\to e^{i\alpha(x)} D_{\mu}\psi(x)
+\label{D_trans}
+\end{equation}
+To form the "coviant derivative" $D_{\mu}$ a vector field $A_{\mu}$ must also be introduced, with the same transformation properties: 
+\begin{equation}
+A_{\mu}\psi(x)\to A_{\mu} + \frac{1}{e}\ \partial_{\mu} \alpha
+\label{A_trans}
+\end{equation}
+where e is the electric charge. This means that:
+\begin{equation}
+D_{\mu} \equiv \partial_{\mu} - ieA_{\mu}
+\label{D_defin}
+\end{equation}
+%Hence, my demanding local phase invariance, it must be introduced a vector field $A_{\mu}$, called the \textit{gauge filed}, which couples to the Dirac particle ($\psi$, charge -e) in the 
+
+
+

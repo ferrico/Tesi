@@ -1,0 +1,109 @@
+%\documentclass[a4paper]{report} 
+%% in alternativa, \documentclass[a4paper]{book}
+%openright
+\ifx\pdfoutput\undefined % sezione non pdflatex
+    \documentclass[11pt,a4paper,twoside,openright]{book}
+\usepackage[hmarginratio=1:1]{geometry}
+    \usepackage[dvips]{graphicx}
+    \RequirePackage[dvipdfm,hyperindex]{hyperref}
+\else
+    \documentclass[pdftex,11pt,a4paper,twoside,openright]{book}
+    \usepackage[hmarginratio=1:1]{geometry}
+    \usepackage[pdftex]{graphicx}
+    \DeclareGraphicsExtensions{.pdf,.png,.jpg,.mps}
+    \RequirePackage[hyperindex]{hyperref}
+    \usepackage{thumbpdf}
+\fi
+
+%% importazione di pacchetti utili
+%\usepackage[italian]{babel}
+\usepackage[english]{babel}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{afterpage}
+\usepackage{graphics}
+\graphicspath{{img/}}
+\usepackage{booktabs}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{feynmf} 
+\usepackage{subfig}
+\usepackage{colortbl}
+\usepackage{epigraph}
+\usepackage{emptypage}
+\usepackage{lscape}
+\usepackage[applemac]{inputenc}
+\usepackage{frontespizio}
+\usepackage{fancyhdr}
+\usepackage{comment}
+
+\usepackage{siunitx}
+
+\captionsetup[table]{position=top}
+
+%interlinea
+%\linespread{1.12
+
+ % piccole variazioni ai bordi della pagina e alla larghezza del testo
+%%\addtolength{\textwidth}{1cm}
+%%\addtolength{\evensidemargin}{-1.1 cm}
+%%\addtolength{\oddsidemargin}{-0.25 cm}
+%%\footskip=37pt
+
+
+
+%%%% l'istruzione successiva serve per avere una compilazione selettiva 
+%%%% dei vari capitoli.
+%\pagestyle{fancy}
+%\renewcommand{\chaptermark}[1]{\markboth{\MakeUppercase{\thechapter. #1 }}{}}
+%\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+%\renewcommand{\subsectionmark}[1]{\markright{\thesubsection\ #1}}
+%\fancyhf{}
+%\fancyhead[RO]{\bfseries\rightmark}
+%\fancyhead[LE]{\bfseries\leftmark}
+%\fancyfoot[C]{\thepage}
+%\renewcommand{\headrulewidth}{0.5pt}
+%\renewcommand{\footrulewidth}{0pt}
+%\addtolength{\headheight}{0.5pt}
+%\fancypagestyle{plain}{
+ % \fancyhead{}
+  %\renewcommand{\headrulewidth}{0pt}
+%}
+
+
+
+\begin{document}
+
+\include{frontespizio}
+
+%\include{dedica}
+
+%\include{dedica}
+
+\tableofcontents
+
+\include{Introduction}
+
+%
+\include{Chapter1}
+
+\include{Chapter2}
+
+\include{Chapter3}
+
+\include{Chapter4}
+
+
+\include{Conclusion}
+
+\include{biblio}
+
+
+
+
+
+
+\end{document}
+
