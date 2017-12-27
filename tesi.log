@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.11)  20 DEC 2017 11:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.11)  27 DEC 2017 19:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -734,13 +734,10 @@ Package: translator 2010/06/12 ver 1.10
 uage-mappings.tex))) (./tesi.aux (./frontespizio.aux) (./Introduction.aux)
 (./Chapter1.aux
 
-LaTeX Warning: Label `local_trans' multiply defined.
+LaTeX Warning: Label `EWK_Singlet_doublet_Leptons' multiply defined.
 
 
-LaTeX Warning: Label `local_trans' multiply defined.
-
-
-LaTeX Warning: Label `local_trans' multiply defined.
+LaTeX Warning: Label `EWK_global' multiply defined.
 
 ) (./Chapter2.aux
 
@@ -908,10 +905,41 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-[7] [8]) [9]
+[7] [8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 155--158
+
+ []
+
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 199--201
+
+ []
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 213.
+
+[11] [12]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 303.
+
+ (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 303.
+
+[13] <Images/Vphi.png, id=222, 394.47375pt x 326.21875pt>
+File: Images/Vphi.png Graphic file (type png)
+
+<use Images/Vphi.png>
+Package pdftex.def Info: Images/Vphi.png used on input line 312.
+(pdftex.def)             Requested size: 188.21288pt x 155.6474pt.
+ [14 <./Images/Vphi.png>] Excluding 'comment' comment.)
+[15]
 \openout2 = `Chapter2.aux'.
 
- (./Chapter2.tex [10
+ (./Chapter2.tex [16
 
 
 
@@ -922,10 +950,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [11]
+) [17]
 \openout2 = `Chapter3.aux'.
 
- (./Chapter3.tex [12
+ (./Chapter3.tex [18
 
 
 
@@ -936,10 +964,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [13]
+) [19]
 \openout2 = `Chapter4.aux'.
 
- (./Chapter4.tex [14
+ (./Chapter4.tex [20
 
 
 
@@ -950,21 +978,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-) [15]
+) [21]
 \openout2 = `Conclusion.aux'.
 
- (./Conclusion.tex [16
+ (./Conclusion.tex [22
 
 
 
-]) [17]
+]) [23]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [18
+ (./biblio.tex [24
 
 
 
-] [19] [20
+] [25] [26
 
 
 ])
@@ -976,7 +1004,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 108.
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 108.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 108.
 Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 9FA3E989D13A3EEFB93BAC494C3A32C6;672.
+(rerunfilecheck)             Checksum: 25F64B9C345A2228574151BEE3C07894;777.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -984,33 +1012,34 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 108.
  ) 
 Here is how much of TeX's memory you used:
- 17368 strings out of 493089
- 330921 string characters out of 6134842
- 386773 words of memory out of 5000000
- 20530 multiletter control sequences out of 15000+600000
+ 17480 strings out of 493089
+ 332414 string characters out of 6134842
+ 388779 words of memory out of 5000000
+ 20589 multiletter control sequences out of 15000+600000
  16434 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,12n,43p,10371b,777s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 39i,16n,43p,10371b,823s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
-usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
-r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
-cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local
-/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tesi.pdf (20 pages, 195590 bytes).
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/loca
+l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/20
+15/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on tesi.pdf (26 pages, 249149 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 215 compressed objects within 3 object streams
- 50 named destinations out of 1000 (max. 500000)
- 81 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 378 PDF objects out of 1000 (max. 8388607)
+ 325 compressed objects within 4 object streams
+ 97 named destinations out of 1000 (max. 500000)
+ 94 words of extra memory for PDF output out of 10000 (max. 10000000)
 
