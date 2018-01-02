@@ -325,7 +325,7 @@ and substituting into \ref{L0}, one obtains:
 \label{L0_prime}
 \end{equation}
 The third term has the form of a mass term for $\eta$-field: the $\eta$-mass is $m_{\eta} = \sqrt{-2\mu^{2}}$. The first term in \ref{L0_prime} represents the kinetic energy of the $\xi$-field but there is no corresponding mass term for the $\xi$. The fact there are massless excitations associated with the SSB mechanism is completely general result, known as the \textit{Goldstone theorem}: if a Lagrangian is invariant under a continuous symmetry group G, but the vacuum is only invariant under a subgroup $H\subset G$, then there must exist as many massless spin-0 particles (Goldstone bosons) as broken generators (i.e., generators of G which do not belong to H).
-\subsubsection{The Higgs Mechanism: U(1) local gauge symmetry}
+\subsubsection{The Higgs Mechanism}%: U(1) local gauge symmetry}
 Let's move to consider the case for spontaneous breaking of U(1) local gauge symmetry.\\
 Taking into account the covariant derivative \ref{D_covariante} where the gauge filed transforms as in \ref{A_trans}, the new Lagrangian can be written as
 \begin{equation}
@@ -356,19 +356,99 @@ This is a particular choice of gauge, with $\theta(x)$ chosen so that h is real.
 \end{equation}
 The Goldstone boson does not appear in the theory. That is because it corresponding only to the freedom to make a gauge transformation. The Lagrangian \ref{L0_U1_prime} describes just two interacting massive particles, a vector gauge bosoon $A_{\mu}$ and a massive scalar h, which is called a \textit{Higgs particle}. This is called the "\textit{Higgs mechanism}".\\
 %\subsubsection{The Higgs Mechanism for $SU(2)_{L} \otimes U(1)_{Y}$ symmetry
-Consider now the case of  $SU(2)_{L} \otimes U(1)_{Y}$ symmetry.
-The Lagrangian
+Consider now the case of  $SU(2)_{L} \otimes U(1)_{Y}$ symmetry \cite{SU2_Hmechanism} with the Lagrangian
 \begin{equation}
-\mathcal{L} = (\partial_{\mu}\phi)^{\dagger}(\partial^{\mu}\phi)-\mu^{2}\phi^{\dagger}\phi-\lambda(\phi^{\dagger}\phi)^{2}
+\mathcal{L} = (D_{\mu}\phi)^{\dagger}(D^{\mu}\phi)-\mu^{2}\phi^{\dagger}\phi-\lambda(\phi^{\dagger}\phi)^{2}
 \label{L0_SU2}
 \end{equation}
-where $\phi$ is an SU(2) doublet of complex scalar fields:
+$D_{\mu}$ is the covariant derivative \ref{D_EWK} and $\phi$ is an SU(2) doublet of complex scalar fields:
 \begin{equation}
-\phi = {\phi_{\alpha} \choose \phi_{\beta}} = \frac{1}{\sqrt{2}}{\phi_{1}+i\phi_{2} \choose \phi_{3}+i\phi_{4}}
+\phi(x) \equiv {\phi^{+}(x) \choose \phi^0(x)}
 \label{phi_SU2}
 \end{equation}
+\ref{L0_SU2} is invariant under local $SU(2)_{L} \otimes U(1)_{Y}$ transformations. \\
+In $\mu^{2} < 0$ and $\lambda^{2} > 0$ conditions, to generate gauge boson masses, a vacuum expectation value of $\phi(x)$ must be chosen:
+\begin{equation}
+\phi_{0} \equiv \frac{1}{\sqrt{2}}{0 \choose \nu}
+\label{SU2_U1_V0}
+\end{equation}
+In this way, the symmetry is broken and this generates a mass for the corresponding gauge boson. This particular choice of $\phi_{0}$ breaks both $SU(2)$ and $U(1)_{Y}$ gauge symmetries but since it is neutral, the $U(1)_{em}$ remains unbroken and this means the photon remains massless. \\
+Now, substituting the vacuum expectation value $\phi_{0}$ for $\phi(x)$ in the Lagrangian \ref{L0_SU2}, the expression for W and Z bosons mass are:
+\begin{equation}
+M_{W}^{2} = \frac{\nu^{2}g^{2}}{4}, \quad M_{Z}^{2} = \frac{\nu^{2}g^{2}}{4\cos^{2}\theta_{W}}=\frac{M_{W}^{2}}{\cos^{2}{\theta_{W}}}
+\label{WZ_mass_expression}
+\end{equation}
+From experimental observation \cite{PDG}:
+\begin{equation}
+M_{Z} = XXX\pm0XXX\ GeV, \quad M_{W} = XXX\pm XX\ GeV
+\end{equation}
+From these experimental numbers, one obtains the electroweak mixing angle:
+\begin{equation}
+\sin^{2}\theta_{W} = 1-\frac{M^{2}_{W}}{M^{2}_{Z}} = XXXX
+\end{equation}
+The scalar vacuum expectation value is:
+\begin{equation}
+\nu=(\sqrt{2}G_{F})^{-1/2}=246\ GeV
+\end{equation}
+where $G_{F}$ = XXXXX is the Fermi coupling whose value can be measured with the muon lifetime \cite{muLifetime}.\\
+From \ref{L0_SU2}, the potential $V(\phi)$ can be seen as:
+\begin{equation}
+V(\phi)=-\frac{1}{4}\lambda\nu^{2}+V_{H}+V_{HG^{2}}
+\label{V0_Higgs}
+\end{equation}
+The first term stands for mass of the new Higgs boson: $m_{H} = \sqrt{2\lambda\nu^{2}}$; the second represents Higgs boson self-interaction and the last the coupling with the weak bosons (W and Z). \\
+It is interesting to note the same Higgs doublet which generates weak bosons masses can give masses also to leptons and quarks. In particular, let's consider the following Lagrangian:
+\begin{equation}
+\mathcal{L} = -G_{e} [(\bar{\nu}_{e},\ \bar{e})_{L}{\phi^{+} \choose \phi^{0}}e_{R}+\bar{e}_{R}(\phi^{-},\ \bar{\phi}^{0}){\nu_{e} \choose e}_{L} ]
+\label{L0_fermion_quark_mass}
+\end{equation}
+Substituting the expression of $\phi$:
+\begin{equation}
+\phi = \frac{1}{\sqrt{2}}{0 \choose \nu+h(x)}
+\end{equation}
+into \ref{L0_fermion_quark_mass}, the Lagrangian becomes:
+\begin{equation}
+\mathcal{L} = -\frac{G_{e}}{\sqrt{2}}\nu(\bar{e}_{L}e_{R}+\bar{e}_{R}e_{L})-\frac{G_{e}}{\sqrt{2}}h(\bar{e}_{L}e_{R}+\bar{e}_{R}e_{L})
+% [(\bar{\nu}_{e},\ \bar{e})_{L}{\phi^{+} \choose \phi^{0}}e_{R}+\bar{e}_{R}(\phi^{-},\ \bar{\phi}^{0}){\nu_{e} \choose e}_{L} ]
+\label{L0_fermion_quark_mass_2}
+\end{equation}
+Choosing $G_{e}$ so that $m_{e} = G_{e}\nu/\sqrt{2}$, since the $G_{e}$ is arbitrary, the actual mass of the electron is not predicted. \\
+The quark masses are generated in the same way with the difference that to generate a mass for the upper member of a quark doublet, a new Higgs doublet from $\phi$ must be used:
+\begin{equation}
+\phi_{c} = i\tau\phi^{*}={-\bar{\phi}^{0} \choose \phi^{-}} \xrightarrow[breaking]{}\frac{1}{\sqrt{2}}{\nu+h(x) \choose 0}
+\end{equation}
+The new Lagrangian can be written as:
+\begin{equation}
+\mathcal{L}= -G_{d}(\bar{u}, \ \bar{d})_{L}{\phi^{+} \choose \phi^{0}}d_{R}-G_{u}(\bar{u}, \ \bar{d})_{L}{-\bar{\phi}^{0} \choose \phi^{-}}u_{R}\ +\ hermitian\  coniugate
+\label{L0_quark_mass}
+\end{equation}
+In \ref{L0_quark_mass}, the (u,\ d) quark doublet are considered even if the weak interactions operate on $(u,\  d')_{L}$ where the primed states are  linear combinations of the flavour eigenstates\footnote{Linear combination of the flavour eigenstates considering Cabibbo-Kobayashi-Maswaka (CKM) matrix: $d'_i = \sum_{n=1}^NV_{in}d_n  $ where N = 3 is the number of quarks, $V_{in}$ is CKM matrix and $d_{n}$ are the d type quarks d, s, b.}. Using these new doublets, \ref{L0_quark_mass} is therefore of the form:
+\begin{equation}
+\mathcal{L}= -G_{d}^{ij}(\bar{u}, \ \bar{d}')_{L}{\phi^{+} \choose \phi^{0}}d_{jR}-G_{u}^{ij}(\bar{u}, \ \bar{d}')_{L}{-\bar{\phi}^{0} \choose \phi^{-}}u_{jR}\ +\ hermitian\  coniugate
+\label{L0_quark_mass_2}
+\end{equation}
+with i, j = 1, ..., N,  where N is the number of quark doublet. Substituting $\phi_{c}$ expression, the masses depend on the arbitrary couplings $G_{u,d}$ but, as for electron, it cannot be predicted.\\
+The choose of a particular single Higgs doublet is sufficient on one hand to generate the masses of both of the gauge bosons and the fermions but on the other hand, the masses of the fermoins are just parameteres of the theory and are not predicted. 
+%At the same time, the mass of the Higgs $m_{h}$ is itself not predicted: from the first two terms of the effective potential, $V(\phi) = \mu^{2}\phi^{\dagger}\phi+\lambda(\phi^{\dagger}\phi)^{2}+O(3)$, the mass can be defined as $m_{h}^{2} = 2\nu^{2}\lambda$: theoretical limits indicate that $m_{h} \ge 10\ GeV$. \\
+\\ To summarise, the complete Lagrangian of the SM is:
+\begin{equation}
+\begin{split}
+\mathcal{L}_{SM} &= \frac{1}{4}W_{\mu\nu}\cdot W^{\mu\nu} - \frac{1}{4}B_{\mu\nu}B^{\mu\nu} + \bar{L}\gamma^{\mu}(i\partial_{\mu}-g\frac{1}{2}\tau \cdot W_{\mu} -g'\frac{Y}{2}B_{\mu})L \\
+&+\bar{R}\gamma^{\mu}(i\partial_{\mu}-g'\frac{Y}{2}B_{\mu})R+|i\partial_{\mu}-g\frac{1}{2}\tau \cdot W_{\mu} -g'\frac{Y}{2}B_{\mu}|^{2} -V{\phi} \\
+&-(G_{1}\bar{L}\phi R+G_{2}\bar{L} \phi_{c}R +\ hermitian\ conjugate)
+\label{L0_SM}
+\end{split}
+\end{equation}
+The first two terms represent the $W^{\pm}$, Z, $\gamma$ kinetic energies and the self-interactions; the third and the fourth term the lepton and quark kinetic energies and their interaction with weak W, Z and $\gamma$; the last terms stand for masses and coupling of the Higgs, bosons, leptons and quark. \\
 
-%Replacing the covariant derivative \ref{D_covariante} where 
+\section{The Higgs boson}
+The SM Higgs boson is a CP-even scalar of spin 0 \cite{PDG}. Its mass is given by $m_{h} = \sqrt{2\lambda\nu^{2}}$, where $\lambda$ is the Higgs self-coupling parameter in the potential $V(\phi)$. The experimentally Higgs mass, $m_{h} \simeq 125\ GeV$ \cite{ALTAS_H}\cite{CMS_H}, implies $\lambda \simeq 0.1$ and $|m| \simeq 88.8\ GeV$. \\
+The Higgs boson couplings to the fundamental particles are set by their masses: very weak for light particles, such as up and down quarks, and electrons, but for heavy particles such as the W and Z bosons and the top quark. In particular, the SM Higgs coupling fo fundamental fermions are linearly proportional to the fermion masses. whereas the couplings to bosons are proportional to the squares of the boson masses. As consequence, the dominant mechanism for Higgs boson production and decay involve the coupling of H to W, Z and/or the third generation quarks and leptons. The Higgs boson coupling to  gluons is induced at leading order by a one-loop process in which H couples to a virtual $t\bar{t}$ pair. Likewise, the Higgs boson couplings to photons is also generated via loops, although in this case the one-loop graph with a virtual $W^{+}W^{-}$ pair provides the dominant contribution and the one involving a virtual $t\bar{t}$ pair is subdominant. \\
+
+
+
+
+
 
 
 

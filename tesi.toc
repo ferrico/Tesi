@@ -9,12 +9,13 @@
 \contentsline {subsubsection}{QCD}{10}{section*.7}
 \contentsline {subsubsection}{The electroweak theory}{11}{section*.8}
 \contentsline {subsection}{\numberline {1.1.3}Spontaneous Symmetry Breaking and the Higgs Boson}{13}{subsection.1.1.3}
-\contentsline {subsubsection}{The Higgs Mechanism: U(1) local gauge symmetry}{15}{section*.10}
+\contentsline {subsubsection}{The Higgs Mechanism}{15}{section*.10}
+\contentsline {section}{\numberline {1.2}The Higgs boson}{17}{section.1.2}
 \select@language {english}
-\contentsline {chapter}{\numberline {2}Il Modello Standard e la Fisica del Bosone di Higgs}{17}{chapter.2}
+\contentsline {chapter}{\numberline {2}Il Modello Standard e la Fisica del Bosone di Higgs}{19}{chapter.2}
 \select@language {english}
-\contentsline {chapter}{\numberline {3}Il Modello Standard e la Fisica del Bosone di Higgs}{19}{chapter.3}
+\contentsline {chapter}{\numberline {3}Il Modello Standard e la Fisica del Bosone di Higgs}{21}{chapter.3}
 \select@language {english}
-\contentsline {chapter}{\numberline {4}Il Modello Standard e la Fisica del Bosone di Higgs}{21}{chapter.4}
-\contentsline {chapter}{Conclusion}{23}{chapter*.11}
-\contentsline {chapter}{Bibliografia}{24}{chapter*.11}
+\contentsline {chapter}{\numberline {4}Il Modello Standard e la Fisica del Bosone di Higgs}{23}{chapter.4}
+\contentsline {chapter}{Conclusion}{25}{chapter*.11}
+\contentsline {chapter}{Bibliografia}{26}{chapter*.11}
