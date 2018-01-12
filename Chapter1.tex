@@ -11,7 +11,7 @@ This chapter will describe in details the Standard Model and some theories devel
 \label{cap1:SM}
 \subsection{Fundamental Particles}
 \label{cap1:pi}
-All matter around us is made of elementary particles, the building blocks of matter. These particles are divided into two groups: \textit{leptons}, with an entire value of electric charge, and \textit{quarks}, with a fractional charge. Each group consists of six particles, which are related in pairs, or generations. The six quarks are paired in the three generations: the up quark and the down quark form the first generation, followed by the charm quark and strange quark, then the top quark and bottom (or beauty) quark.  The six leptons are similarly arranged in three generations: the electron and the electron neutrino, the muon and the muon neutrino, and the tau and the tau neutrino. While electron, muon and tau are charged particles, the neutrinos are electrically neutral. In table \ref{leptonsSM} and \ref{quarkSM}, the features of leptons and quarks.
+All matter around us is made of elementary particles, the building blocks of matter. These particles are divided into two groups: \textit{leptons}, with an entire value of electric charge, and \textit{quarks}, with a fractional charge. Each group consists of six particles, which are related in pairs, or generations. The six quarks are paired in the three generations: the up quark and the down quark form the first generation, followed by the charm quark and strange quark, then the top quark and bottom (or beauty) quark.  The six leptons are similarly arranged in three generations: the electron and the electron neutrino, the muon and the muon neutrino, and the tau and the tau neutrino. While electron, muon and tau are charged particles, the neutrinos are electrically neutral. In \tablename~\ref{leptonsSM} and \ref{quarkSM}, the features of leptons and quarks.
 \begin{table}[ht]	
 	\begin{center}
 		\begin{tabular}{|ccc|}
@@ -58,7 +58,7 @@ All matter around us is made of elementary particles, the building blocks of mat
 	\label{quarkSM}
 \end{table}
 
-Beside these leptons and quarks, there are other particles responsible of carrying the fundamental forces, the so called \textit{bosons}. The Electromagnetic Force, responsible of all eletrical and magnetic phenomena, is mediated by the phtons {$\gamma$}; the Weak Force, responsible of some decays, is mediate by $W^{\pm}$ and $Z$ bosons; the Strong Force, responsible for example of the atomic structure, is mediated by the gluons ($g$). Last fundamental force, not yet included in the SM, is the Gravity that is the weakest. In table \ref{bosonsSM} the features of the bosons.
+Beside these leptons and quarks, there are other particles responsible of carrying the fundamental forces, the so called \textit{bosons}. The Electromagnetic Force, responsible of all eletrical and magnetic phenomena, is mediated by the phtons {$\gamma$}; the Weak Force, responsible of some decays, is mediate by $W^{\pm}$ and $Z$ bosons; the Strong Force, responsible for example of the atomic structure, is mediated by the gluons ($g$). Last fundamental force, not yet included in the SM, is the Gravity that is the weakest. In \tablename~\ref{bosonsSM} the features of the bosons.
 \begin{table}[htbp]	
 	\begin{center}
 		\begin{tabular}{|cccc|}
@@ -445,6 +445,60 @@ The first two terms represent the $W^{\pm}$, Z, $\gamma$ kinetic energies and th
 The SM Higgs boson is a CP-even scalar of spin 0 \cite{PDG}. Its mass is given by $m_{h} = \sqrt{2\lambda\nu^{2}}$, where $\lambda$ is the Higgs self-coupling parameter in the potential $V(\phi)$. The experimentally Higgs mass, $m_{h} \simeq 125\ GeV$ \cite{ALTAS_H}\cite{CMS_H}, implies $\lambda \simeq 0.1$ and $|m| \simeq 88.8\ GeV$. \\
 The Higgs boson couplings to the fundamental particles are set by their masses: very weak for light particles, such as up and down quarks, and electrons, but for heavy particles such as the W and Z bosons and the top quark. In particular, the SM Higgs coupling fo fundamental fermions are linearly proportional to the fermion masses. whereas the couplings to bosons are proportional to the squares of the boson masses. As consequence, the dominant mechanism for Higgs boson production and decay involve the coupling of H to W, Z and/or the third generation quarks and leptons. The Higgs boson coupling to  gluons is induced at leading order by a one-loop process in which H couples to a virtual $t\bar{t}$ pair. Likewise, the Higgs boson couplings to photons is also generated via loops, although in this case the one-loop graph with a virtual $W^{+}W^{-}$ pair provides the dominant contribution and the one involving a virtual $t\bar{t}$ pair is subdominant. \\
 
+\subsection{The Higgs boson: production mechanisms}
+The main production mechanisms at the LHC are gluon fusion, weak-boson fusion, associated production with gauge boson and associated production with a pair of top/antitop quarks. 
+The corresponding Feynman diagrams are reported in \figurename~\ref{Feynman_H_production}.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.45\textwidth]{Images/Feynman_H_production}
+\caption{Main Leading Order Feynman diagrams contributing to the Higgs production: (a) gluon fusion, (b) Vector-boson fusion, (c) Higgs-strahlung (or associated production with a gauge boson), (d) associated production with a pair of top (or bottom quarks), (e-f) production in association with a single top quark.}
+\label{Feynman_H_production}
+\end{figure}
+\figurename~\ref{plot_13tev_H_production} summarises these dominant Higgs production processes for a center of mass energy of 13 TeV. \\
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.45\textwidth]{Images/plot_13tev_H_production}
+\caption{Standard Model Higgs boson production cross section at $\sqrt{s} = 13\ TeV$ as a function of Higgs boson mass \cite{HiggsProduction}.}
+\label{plot_13tev_H_production}
+\end{figure}
+\subsubsection{Production mechanism: gluon fusion}
+The Higgs boson production mechanism with the largest cross section is the gluon-fusion process: $gg \to H + X$, mediated by the exchange of a virtual, heavy top quark (\figurename~\ref{Feynman_H_production}a). Contributions from lighter quarks propagating in the loop are suppressed proportional to $m_{q}^{2}$. QCD radiative corrections to this process are also very important. At the LHC, with a $\sqrt{s} = 13\ TeV$, the value for the production cross section at the next-to next- to next  to leading order is \cite{ggF_value}:
+\begin{equation}
+\sigma^{N3LO}_{ggF} = 48.6pb^{+2.2pb(+4.6\%)}_{-3.3pb(+6.7\%)}(theory) \pm 1.6(3.2\%)(PDF+\alpha_{s})
+\label{ggH_cross_section}
+\end{equation}
+\subsubsection{Production mechanism: Weak-boson fusion}
+The SM Higgs production mode with the second-largest cross section is Vector Boson Fusion (VBF): $qq \to qqH$ (\figurename~\ref{Feynman_H_production}b). This mechanism proceed by the scattering of two (anti-)quarks, mediated by exchange of a W or Z boson, with the Higgs boson radiated off the weak-boson propagator. The scattered quarks give rise to two hard jets in the forward and backward regions of the detector. Gluon radiation in the central-rapidity is suppressed thanks to the color-singlet nature of the weak-gauge boson exchange: this feature let to distinguish VBF from overwhelming QCD backgrounds including gluon-fusion induced Higgs + 2 jets production and production of H in association with a W or Z boson hadronically decaying. This process receive contributions at NLO from QCD and EW; QCD also contributes at NNLO.
+\subsubsection{Production mechanism: Higgs-strahlung}
+The next most relevant Higgs boson production mechanism is the Higgs-strahlung, the production of the Higgs boson with W or Z gauge bosons: $pp \to VH + X$ with $V = W^{\pm},Z$ (\figurename~\ref{Feynman_H_production}c). As in VBF, at NLO EW and QCD (due to corrections to the Drell-Yan cross section) give their contributions to this cross section. In addition, Higgs-strahlung receives non Drell-Yan-like conrrections in the $q\bar{q}$ channels where the Higgs is radiated off top-quarks loops.
+\subsubsection{Production mechanism: ttH}
+Higgs radiation off top quarks (\figurename~\ref{Feynman_H_production}d), $pp \to t\bar{t}H$, provides a direct probe of the top-Higgs Yukawa coupling.
+
+\subsection{The Higgs boson: decay channels}
+As reported in \figurename~\ref{Higgs_decay}, the dominant decay modes for the Higgs boson are $H \to b\bar{b}$, $H \to WW^{*}$ followed by $H \to \gamma \gamma$, $H \to \tau^{+}\tau^{-}$ and $H \to ZZ^{*}$;  \tablename~\ref{Higgs_decay_table} summarises the branching ratios and the relative uncertainty for these decay channels.
+\begin{figure}[htbp]
+\centering
+\includegraphics[width=0.45\textwidth]{Images/Higgs_decay}
+\caption{Standard Model Higgs boson production cross section at $\sqrt{s} = 13\ TeV$ as a function of Higgs boson mass \cite{HiggsProduction}.}
+\label{Higgs_decay}
+\end{figure}
+\begin{table}[ht]	
+	\begin{center}
+		\begin{tabular}{ccc}
+			\hline   Decay channel & Branching ratio  & Rel. uncertainty  \\
+			\hline
+			 \multirow{2}*{$H \to b\bar{b}$} & 			\multirow{2}*{$5.84 \times 10^-{1}$} &	 +3.2\% \\  &  & -3.3\% \\
+			 \multirow{2}*{$H \to WW^{*}$} &			 \multirow{2}*{$2.14 \times 10^-{1}$} &	 +4.3\% \\  &  & -4.2\% \\
+			 \multirow{2}*{$H \to \tau^{+}\tau^{-}$} &		 \multirow{2}*{$6.27 \times 10^-{2}$} &	 +5.7\% \\  &  & -5.7\% \\
+			 \multirow{2}*{$H \to ZZ^{*}$} &				 \multirow{2}*{$2.62 \times 10^-{2}$} &	 +4.3\% \\  &  & -4.1\% \\
+			 \multirow{2}*{$H \to \gamma \gamma$} & 	\multirow{2}*{$2.27 \times 10^-{3}$} &	 +5.0\% \\  &  & -4.9\% \\
+			 \multirow{2}*{$H \to \mu \mu$} &			 \multirow{2}*{$2.18 \times 10^-{4}$} &	 +6.0\% \\  &  & -5.9\% \\
+			\hline
+		\end{tabular}
+	\end{center}
+	\caption{Standard Model leptons features \cite{BR_1} \cite{BR_2}.}
+	\label{Higgs_decay_table}
+\end{table}
 
 
 
