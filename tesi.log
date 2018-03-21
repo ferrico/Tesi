@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.11)  5 MAR 2018 12:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.11)  21 MAR 2018 19:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -731,19 +731,8 @@ Variant \prop_get:NVNTF already defined; not changing it on line 382
 Package: translator 2010/06/12 ver 1.10
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/translator-lang
-uage-mappings.tex))) (./tesi.aux (./frontespizio.aux) (./Introduction.aux)
-(./Chapter1.aux
-
-LaTeX Warning: Label `EWK_Singlet_doublet_Leptons' multiply defined.
-
-
-LaTeX Warning: Label `EWK_global' multiply defined.
-
-) (./Chapter2.aux
-
-LaTeX Warning: Label `Tracker_performance' multiply defined.
-
-) (./biblio.aux))
+uage-mappings.tex))) (./tesi.aux (./frontespizio.aux) (./Chapter2.aux)
+(./biblio.aux))
 \openout1 = `tesi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
@@ -882,201 +871,138 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout8 = `tesi.toc'.
 
  [3]
-\openout2 = `Introduction.aux'.
+\openout2 = `Chapter2.aux'.
 
- (./Introduction.tex [4
-
-
-]) [5]
-\openout2 = `Chapter1.aux'.
-
-
-(./Chapter1.tex [6
-
+ (./Chapter2.tex [4
 
 
 ]
 Chapter 1.
-[7] [8] [9]
-Underfull \hbox (badness 10000) in paragraph at lines 155--158
-
- []
-
-[10]
-Underfull \hbox (badness 10000) in paragraph at lines 199--201
-
- []
-
-
-Package amsmath Warning: Foreign command \atopwithdelims;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 213.
-
-[11] [12]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 303.
-
- (/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 303.
-
-[13] <Images/Vphi.png, id=242, 394.47375pt x 326.21875pt>
-File: Images/Vphi.png Graphic file (type png)
-
-<use Images/Vphi.png>
-Package pdftex.def Info: Images/Vphi.png used on input line 312.
-(pdftex.def)             Requested size: 188.21288pt x 155.6474pt.
- [14 <./Images/Vphi.png>] [15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 441--443
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 445--447
-
- []
-
-[17] <Images/Feynman_H_production.pdf, id=313, 444.66125pt x 439.6425pt>
-File: Images/Feynman_H_production.pdf Graphic file (type pdf)
-
-<use Images/Feynman_H_production.pdf>
-Package pdftex.def Info: Images/Feynman_H_production.pdf used on input line 453
-.
-(pdftex.def)             Requested size: 188.21288pt x 186.08418pt.
-
-<Images/plot_13tev_H_production.png, id=315, 600.2425pt x 577.15625pt>
-File: Images/plot_13tev_H_production.png Graphic file (type png)
-
-<use Images/plot_13tev_H_production.png>
-Package pdftex.def Info: Images/plot_13tev_H_production.png used on input line 
-460.
-(pdftex.def)             Requested size: 188.21288pt x 180.96854pt.
- [18 <./Images/Feynman_H_production.pdf>]
-Underfull \vbox (badness 5388) has occurred while \output is active []
-
- [19 <./Images/plot_13tev_H_production.png>]
-<Images/Higgs_decay.pdf, id=366, 569.12625pt x 546.04pt>
-File: Images/Higgs_decay.pdf Graphic file (type pdf)
-
-<use Images/Higgs_decay.pdf>
-Package pdftex.def Info: Images/Higgs_decay.pdf used on input line 481.
-(pdftex.def)             Requested size: 188.21288pt x 180.57703pt.
- Excluding 'comment' comment.) [20 <./Images/Higgs_decay.pdf>] [21]
-\openout2 = `Chapter2.aux'.
-
- (./Chapter2.tex [22
-
-
-
-]
-Chapter 2.
-<Images/Cern-Accelerator-Complex.jpg, id=406, 845.1575pt x 683.05188pt>
+<Images/Cern-Accelerator-Complex.jpg, id=62, 845.1575pt x 683.05188pt>
 File: Images/Cern-Accelerator-Complex.jpg Graphic file (type jpg)
 
 <use Images/Cern-Accelerator-Complex.jpg>
 Package pdftex.def Info: Images/Cern-Accelerator-Complex.jpg used on input line
- 16.
+ 26.
 (pdftex.def)             Requested size: 271.86234pt x 219.71712pt.
- [23] [24 <./Images/Cern-Accelerator-Complex.jpg>]
-Overfull \hbox (7.65627pt too wide) in paragraph at lines 64--65
-[]\OT1/cmr/m/n/10.95 Good miss-ing trans-verse en-ergy and di-jet mass res-o-lu
--tion, re-quir-ing hadron calorime-
+
+Overfull \hbox (3.65526pt too wide) in paragraph at lines 19--55
+\OT1/cmr/m/n/10.95 In the LHC de-sign, 1232 main dipole mag-nets (made of niobi
+um-titanium super-conductor
  []
 
-[25] <Images/CMS_Layout.pdf, id=430, 845.1575pt x 597.23125pt>
+[5] [6 <./Images/Cern-Accelerator-Complex.jpg>]
+<Images/CMS_Layout.pdf, id=84, 845.1575pt x 597.23125pt>
 File: Images/CMS_Layout.pdf Graphic file (type pdf)
 
 <use Images/CMS_Layout.pdf>
-Package pdftex.def Info: Images/CMS_Layout.pdf used on input line 79.
+Package pdftex.def Info: Images/CMS_Layout.pdf used on input line 62.
 (pdftex.def)             Requested size: 292.77629pt x 206.8925pt.
-
-<Images/cmsTracker_TrackerLayout.png, id=434, 1471.4975pt x 694.595pt>
+ [7] Excluding 'comment' comment. [8 <./Images/CMS_Layout.pdf>]
+<Images/cmsTracker_TrackerLayout.png, id=252, 1471.4975pt x 694.595pt>
 File: Images/cmsTracker_TrackerLayout.png Graphic file (type png)
 
 <use Images/cmsTracker_TrackerLayout.png>
 Package pdftex.def Info: Images/cmsTracker_TrackerLayout.png used on input line
- 89.
-(pdftex.def)             Requested size: 292.77629pt x 138.19583pt.
-File: Images/CMS_Layout.pdf Graphic file (type pdf)
- <use Images/CMS_Layout.pdf>
-Package pdftex.def Info: Images/CMS_Layout.pdf used on input line 96.
-(pdftex.def)             Requested size: 41.82791pt x 29.55347pt.
- [26]
-[27 <./Images/CMS_Layout.pdf> <./Images/cmsTracker_TrackerLayout.png (PNG copy)
->]
-File: Images/CMS_Layout.pdf Graphic file (type pdf)
- <use Images/CMS_Layout.pdf>
-Package pdftex.def Info: Images/CMS_Layout.pdf used on input line 108.
-(pdftex.def)             Requested size: 41.82791pt x 29.55347pt.
-File: Images/CMS_Layout.pdf Graphic file (type pdf)
- <use Images/CMS_Layout.pdf>
-Package pdftex.def Info: Images/CMS_Layout.pdf used on input line 117.
-(pdftex.def)             Requested size: 41.82791pt x 29.55347pt.
- [28]
-File: Images/CMS_Layout.pdf Graphic file (type pdf)
+ 113.
+(pdftex.def)             Requested size: 376.42575pt x 177.6864pt.
+File: Images/cmsTracker_TrackerLayout.png Graphic file (type png)
 
-<use Images/CMS_Layout.pdf>
-Package pdftex.def Info: Images/CMS_Layout.pdf used on input line 128.
-(pdftex.def)             Requested size: 41.82791pt x 29.55347pt.
- [29]) [30]
+<use Images/cmsTracker_TrackerLayout.png>
+Package pdftex.def Info: Images/cmsTracker_TrackerLayout.png used on input line
+ 119.
+(pdftex.def)             Requested size: 41.82791pt x 19.73468pt.
+ Excluding 'comment' comment. [9 <./Images/cmsTracker_TrackerLayout.png (PNG co
+py)>]
+<Images/Pixel_structure.jpg, id=263, 221.2869pt x 132.38841pt>
+File: Images/Pixel_structure.jpg Graphic file (type jpg)
+
+<use Images/Pixel_structure.jpg>
+Package pdftex.def Info: Images/Pixel_structure.jpg used on input line 146.
+(pdftex.def)             Requested size: 209.12683pt x 125.11577pt.
+
+<Images/New_Pixel.png, id=265, 3646.62375pt x 2042.63126pt>
+File: Images/New_Pixel.png Graphic file (type png)
+
+<use Images/New_Pixel.png>
+Package pdftex.def Info: Images/New_Pixel.png used on input line 155.
+(pdftex.def)             Requested size: 271.86234pt x 152.25569pt.
+ [10 <./Images/Pixel_structure.jpg>]
+<Images/Silicon_structure.png, id=278, 517.935pt x 381.425pt>
+File: Images/Silicon_structure.png Graphic file (type png)
+
+<use Images/Silicon_structure.png>
+Package pdftex.def Info: Images/Silicon_structure.png used on input line 166.
+(pdftex.def)             Requested size: 146.39133pt x 107.80513pt.
+ [11 <./Images/New_Pixel.png>]
+<Images/ECAL_3D.png, id=288, 673.51625pt x 460.72125pt>
+File: Images/ECAL_3D.png Graphic file (type png)
+
+<use Images/ECAL_3D.png>
+Package pdftex.def Info: Images/ECAL_3D.png used on input line 178.
+(pdftex.def)             Requested size: 313.69025pt x 214.58467pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+Excluding 'comment' comment. [12 <./Images/Silicon_structure.png>]
+Excluding 'comment' comment.) [13 <./Images/ECAL_3D.png>]
 \openout2 = `biblio.aux'.
 
  (./biblio.tex
+[14
+
+
+
+]
 Underfull \hbox (badness 2020) in paragraph at lines 18--19
 []\OT1/cmr/m/n/10.95 MuLan Col-lab-o-ra-tion, \OT1/cmr/m/it/10.95 Im-proved Mea
 -sure-ment of the Pos-i-tive Muon Life-
  []
 
-[31
-
-
-
-] [32])
+[15] [16])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
- (./tesi.aux (./frontespizio.aux) (./Introduction.aux)
-(./Chapter1.aux) (./Chapter2.aux) (./biblio.aux))
+ (./tesi.aux (./frontespizio.aux) (./Chapter2.aux) (./biblio.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
-Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: CB8A525DFCDF8FDFB64492EB27175C0F;1069.
 
 
-LaTeX Warning: There were multiply-defined labels.
+Package rerunfilecheck Warning: File `tesi.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
 
+Package rerunfilecheck Info: Checksums for `tesi.out':
+(rerunfilecheck)             Before: 5B4C66DE695A8ABB58180E19C67D6541;481
+(rerunfilecheck)             After:  683D5D138D0EAF8104E07DCEEB320AFE;401.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 17587 strings out of 493089
- 334480 string characters out of 6134842
- 390571 words of memory out of 5000000
- 20648 multiletter control sequences out of 15000+600000
- 16434 words of font info for 66 fonts, out of 8000000 for 9000
+ 17379 strings out of 493089
+ 331710 string characters out of 6134842
+ 386343 words of memory out of 5000000
+ 20553 multiletter control sequences out of 15000+600000
+ 13444 words of font info for 52 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,16n,43p,10371b,840s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmex9.pf
-b></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
-/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
-sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr
-/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/l
-ocal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/loca
-l/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive
-/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on tesi.pdf (32 pages, 2590439 bytes).
+ 39i,12n,43p,10371b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
+pdfTeX warning (dest): name{subsection.1.2.3} has been referenced but does no
+t exist, replaced by a fixed one
+
+</usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><
+/usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></
+usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></u
+sr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/
+texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on tesi.pdf (16 pages, 2938543 bytes).
 PDF statistics:
- 720 PDF objects out of 1000 (max. 8388607)
- 557 compressed objects within 6 object streams
- 153 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 383 PDF objects out of 1000 (max. 8388607)
+ 272 compressed objects within 3 object streams
+ 66 named destinations out of 1000 (max. 500000)
+ 92 words of extra memory for PDF output out of 10000 (max. 10000000)
 

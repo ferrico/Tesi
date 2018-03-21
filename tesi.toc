@@ -1,28 +1,13 @@
 \select@language {english}
-\contentsline {chapter}{Introduction}{5}{chapter*.2}
 \select@language {english}
-\contentsline {chapter}{\numberline {1}The Standard Model and beyond}{7}{chapter.1}
-\contentsline {section}{\numberline {1.1}The Standard Model}{7}{section.1.1}
-\contentsline {subsection}{\numberline {1.1.1}Fundamental Particles}{7}{subsection.1.1.1}
-\contentsline {subsection}{\numberline {1.1.2}Gauge Symmetries}{8}{subsection.1.1.2}
-\contentsline {subsubsection}{QED}{9}{section*.6}
-\contentsline {subsubsection}{QCD}{10}{section*.7}
-\contentsline {subsubsection}{The electroweak theory}{11}{section*.8}
-\contentsline {subsection}{\numberline {1.1.3}Spontaneous Symmetry Breaking and the Higgs Boson}{13}{subsection.1.1.3}
-\contentsline {subsubsection}{The Higgs Mechanism}{15}{section*.10}
-\contentsline {section}{\numberline {1.2}The Higgs boson}{17}{section.1.2}
-\contentsline {subsection}{\numberline {1.2.1}The Higgs boson: production mechanisms}{18}{subsection.1.2.1}
-\contentsline {subsubsection}{Production mechanism: gluon fusion}{19}{section*.13}
-\contentsline {subsubsection}{Production mechanism: Weak-boson fusion}{19}{section*.14}
-\contentsline {subsubsection}{Production mechanism: Higgs-strahlung}{20}{section*.15}
-\contentsline {subsubsection}{Production mechanism: ttH}{20}{section*.16}
-\contentsline {subsection}{\numberline {1.2.2}The Higgs boson: decay channels}{20}{subsection.1.2.2}
-\select@language {english}
-\contentsline {chapter}{\numberline {2}The CMS detector at LHC}{23}{chapter.2}
-\contentsline {section}{\numberline {2.1}The Large Hadron Collider}{23}{section.2.1}
-\contentsline {section}{\numberline {2.2}The Compact Muon Solenoid}{25}{section.2.2}
-\contentsline {subsection}{\numberline {2.2.1}The tracking system}{26}{subsection.2.2.1}
-\contentsline {subsubsection}{The pixel detector}{28}{section*.25}
-\contentsline {subsubsection}{The silicon strip detector}{29}{section*.27}
-\contentsline {subsection}{\numberline {2.2.2}Electromagnetic calorimeter}{30}{subsection.2.2.2}
-\contentsline {chapter}{Bibliography}{31}{subsection.2.2.2}
+\contentsline {chapter}{\numberline {1}The CMS detector at LHC}{5}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Large Hadron Collider}{5}{section.1.1}
+\contentsline {section}{\numberline {1.2}The Compact Muon Solenoid}{7}{section.1.2}
+\contentsline {subsubsection}{Coordinate Conventions}{8}{section*.5}
+\contentsline {subsection}{\numberline {1.2.1}The tracking system}{9}{subsection.1.2.1}
+\contentsline {subsubsection}{The pixel detector}{10}{section*.8}
+\contentsline {subsubsection}{Pixel Upgrade}{10}{section*.10}
+\contentsline {subsubsection}{The silicon strip detector}{11}{section*.12}
+\contentsline {subsection}{\numberline {1.2.2}Electromagnetic calorimeter}{12}{subsection.1.2.2}
+\contentsline {subsubsection}{The Barrel Calorimeter}{12}{section*.15}
+\contentsline {chapter}{Bibliography}{14}{section*.15}
