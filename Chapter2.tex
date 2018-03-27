@@ -171,7 +171,7 @@ The sensor elements in the strip tracker are single sided p-on-n type silicon mi
 LASER ALIGNMENT SYSTEM
 
 \subsection{Electromagnetic calorimeter}
-The electromagnetic calorimeter plays an essential role in the study of the physics of electroweak symmetry breaking, and  in the exploration of  beyond the Standard Model scenarios.  ECAL is a homogeneous calorimeter of almost 76000 Lead Tungstate $PbWO_4$ scintillating crystals divided into a barrel and two endcaps.
+The electromagnetic calorimeter plays an essential role in the study of the physics of electroweak symmetry breaking, and  in the exploration of  beyond the Standard Model scenarios.  ECAL is a homogeneous calorimeter of almost 76000 Lead Tungstate $\mathrm{PbWO_4}$ scintillating crystals divided into a barrel and two endcaps.
 A $3$D view of the barrel and endcap electromagnetic calorimeter is shown in \figurename~~\ref{ECAL_3D}.
 \begin{figure}[h!]
  \centering
@@ -381,39 +381,79 @@ Parameter & Value \\
  \caption{Parameters of the CMS superconducting solenoid.}
 \label{tab:magnetParameters}
 \end{table}
-%\begin{figure}[ht]
 \begin{figure}[h!]
  \centering
  \includegraphics[width=0.65\textwidth]{Images/cms_slice.pdf}
  \caption{Schematic view of a transverse slice of the central part of the CMS detector.}
 \label{fig:cmsSection}
-%\end{figure}
 \end{figure}
  
-\begin{comment}
 \section{Muon System}
-The muon system is the outermost of the CMS subdetectors. Its main goals are the identification of muons, thanks to their high penetrating power, and
-a precise measurement of their momentum, with the help of the information
-coming from the tracker. The muon system also works as trigger for events
-which involve muons and it provides a precise time measurement of the bunch
-crossing.
-The CMS muon system \cite{muon} relies on three kinds of gaseous detectors:
-drift tubes (DT), cathode strip chambers (CSC) and resistive plate chambers
-(RPC). The DT and the CSC provide an excellent spatial resolution for the measurement of charged particle momentum; the RPC are
-used for trigger issues because of the very good timing. The active parts of
-the muon system are hosted into stations which are interleaved by the iron
-layers of the return yoke of the magnet. The longitudinal view of a quarter of
-the muon system is given in Figure \ref{fig:muon}. The barrel extends up to $|\eta|<1.4$,
-the endcaps up to $|\eta|<2.4$. 
+The muon system is the outermost of the CMS subdetectors. Its main goals are the identification of muons, thanks to their high penetrating power, and a precise measurement of their momentum, with the help of the information coming from the tracker. The muon system also works as trigger for events which involve muons and it provides a precise time measurement of the bunch crossing. The CMS muon system \cite{muon} relies on three kinds of gaseous detectors: drift tubes (DT), cathode strip chambers (CSC) and resistive plate chambers (RPC). The DT and the CSC provide an excellent spatial resolution for the measurement of charged particle momentum; the RPC are used for trigger issues because of the very good timing. The active parts of the muon system are hosted into stations which are interleaved by the iron layers of the return yoke of the magnet. The longitudinal view of a quarter of the muon system is given in \figurename~\ref{fig:muon}. The barrel extends up to $|\eta|<1.4$, the endcaps up to $|\eta|<2.4$. 
 \begin{figure}[h!]
  \centering
- \includegraphics[width=0.85\textwidth]{Images/muonsyst.pdf}
+ \includegraphics[width=0.65\textwidth]{Images/muonsyst.pdf}
  \caption{Longitudinal view of one quarter of the CMS muon system}
 \label{fig:muon}
-%\end{figure}
 \end{figure}
- 
 
+\subsubsection{DT}
+The CMS barrel muon detector consists of 4 stations forming concentric cylinders around the beam line: the 3 inner cylinders have 60 drift chambers each and the outer cylinder has 70. It is possible to use drift chambers as the tracking detectors for the barrel muon system because of the low expected rate and the relatively low strength of the local magnetic field. In each of the 12 sectors of the yoke there are 4 muon chambers per wheel, labeled MB1, MB2, MB3, and MB4, \figurename~\ref{DT}. The yoke-iron supports that are between the chambers of a station generate 12 unavoidable dead zones in the $\phi$ coverage, although the supports are placed so as not to overlap in $\phi$.
+\begin{figure}[h!]
+ \centering
+ \includegraphics[width=0.5\textwidth]{Images/DT.png}
+ \caption{Layout of the CMS barrel muon DT chambers in one of the 5 wheels. The chambers in each wheel are identical with the exception of wheels -1 and +1 where the presence of cryogenic chimneys for the magnet shortens the chambers in 2 sectors. Note that in sectors 4 (top) and 10 (bottom) the MB4 chambers are cut in half to simplify the mechanical assembly and the global chamber layout.}
+\label{DT}
+\end{figure}
+A DT chamber is made of 3 (or 2) superlayers (SL, see \figurename~\ref{DT_chamber}), each made of 4 layers of rectangular drift cells staggered by half a cell. The SL is the smallest independent unit of the design. The wires in the 2 outer SLs are parallel to the beam line and provide a track measurement in the magnetic bending plane (r-$\phi$). In the inner SL, the wires are orthogonal to the beam line and measure the z position along the beam. This third, z-measuring, SL is not present in the fourth station, which therefore measures only the $\phi$ coordinate. 
+\begin{figure}[h!]
+ \centering
+ \includegraphics[width=0.5\textwidth]{Images/DTchamber.png}
+ \caption{Layout of the DT chamber: each chamber is made of 3 Superlayers of Drift Tube and each SL is made of 4 layers of Drift Tube.}
+\label{DT_chamber}
+\end{figure}
+The main element the in the DT is the drift cell, shown in \figurename~\ref{DT_cell}: its pitch is 42 mm, while the layer pitch is 13 mm. The gas used is $\mathrm{Ar-CO_{2}}$ mixture (85 $\%$ - 15 $\%$).
+\begin{figure}[h!]
+ \centering
+ \includegraphics[width=0.5\textwidth]{Images/DT_cell}
+ \caption{Sketch of a cell showing drift lines and isochrones. The plates at the top and bottom of the cell are at ground potential. The voltages applied to the electrodes are +3600V for wires, +1800V for strips, and -1200V for cathodes.}
+\label{DT_cell}
+\end{figure}
+
+\subsubsection{CSC}
+CMS Endcap Muon system consists of Cathode Strip Chambers (CSC) arranged in 4 stations (ME1, ME2, ME3, ME4) (\figurename~\ref{CSC}). 
+\begin{figure}[h!]
+ \centering
+ \includegraphics[width=0.65\textwidth]{Images/CSC}
+ \caption{Quarter-view of the CMS detector. Cathode strip chambers of the Endcap Muon system are highlighted.}
+\label{CSC}
+\end{figure}
+The chambers are trapezoidal and cover either 10$^\circ$ or 20$^\circ$ in $\phi$; all chambers, except for the ME1/3 ring, overlap and provide contiguous $\phi$ -coverage. A muon in the pseudorapidity range 1.2$<|\eta|<$2.4 crosses 3 or 4 CSCs. In the endcap-barrel overlap range, 0.9$<|\eta|<$1.2, muons are detected by both the barrel drift tubes (DT) and endcap CSCs. The CSCs are multiwire proportional chambers comprised of 6 anode wire planes interleaved among 7 cathode panels (\figurename~\ref{CSC_chamber}). 
+\begin{figure}[htbp]
+	\centering
+	\subfloat[][\label{pianiCSC}]
+	{\includegraphics[width=.4\columnwidth]{Images/CSC_chamber}} \quad
+	\subfloat[][\label{funz} ]
+	{\includegraphics[width=.4\columnwidth]{Images/CSC_chamber_2}}
+	\caption{ (a) Layout of a CSC made of 7 trapezoidal panels. The panels form 6 gas gaps withplanes of sensitive anode wires. (b) A schematic view of a single gap illustrating the principle of CSC operation. By interpolating charges induced on cathode strips by avalanche positive ions near a wire, one can obtain a precise localisation of an avalanche along the wire direction.}
+\end{figure}
+Wires run azimuthally and define a track?s radial coordinate. Strips are milled on cathode panels and run lengthwise at constant $\Delta \phi$ width. The largest chambers, ME2/2 and ME3/2, are about 3.4x1.5 $m^{2}$ in size. The overall area covered by the sensitive planes of all chambers is about 5000 $m^{2}$, the gas volume is >50 $m^{3}$, and the number of wires is about 2 million. There are about 9000 high-voltage channels in the system, about 220 000 cathode strip read-out channels with 12-bit signal digitisation, and about 180 000 anode wire read-out channels.The CSCs provide the functions of precision muon measurement and muon trigger in one device. The nominal gas mixture used is 
+$\mathrm{40\%Ar + 50\%CO_{2} + 10\%CF_{4}.}$
+
+\subsubsection{RPC}
+Resistive Plate Chambers (RPC) are gaseous parallel-plate detectors that combine adequate spatial resolution with a time resolution comparable to that of scintillators. An RPC is capable of tagging the time of an ionising event in a much shorter time than the 25 ns between 2 consecutive LHC bunch crossings (BX). The CMS RPC basic double-gap module consists of 2 gaps, hereafter referred as up and down gaps, operated in avalanche mode with common pick-up read-out strips in between. The total induced signal is the sum of the 2 single-gap signals.  Six layers of RPC chambers are embedded in the barrel iron yoke, 2 located in each of the first and second muon stations and 1 in each of the 2 last stations. The redundancy in the first 2 stations allows the trigger algorithm to perform the reconstruction always on the basis of 4 layers, even for low $p_{T}$ particles, which may stop inside the iron yoke. In the endcap region, 3 layers up to $\eta$ = 1.6 are built. In the barrel iron yoke, the RPC chambers form 6 coaxial sensitive cylinders (all around the beam axis) that are approximated with concentric dodecagon arrays arranged into 4 stations (\figurename~\ref{RPC_B}). In the first and second muon stations there are 2 arrays of RPC chambers located internally and externally with respect to the Drift Tube (DT) chambers: RB1in and RB2in at smaller radius and RB1out and RB2out at larger radius. In the third and fourth stations there are again 2 RPC chambers, both located on the inner side of the DT layer (named RB3+ and RB3-, RB4+ and RB4-). A special case is RB4 in sector 4, which consists of 4 chambers: RB4++, RB4+, RB4-, and RB4-. Finally, in sectors 9 and 11 there is only 1 RB4 chamber.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{Images/RPC_B}
+\caption{Schematic layout of one of the 5 barrel wheels, which are labeled ?2, ?1, 0, +1, and +2, respectively. Each wheel is divided into 12 sectors that are numbered as shown.}
+\label{RPC_B}
+\end{figure}
+In the forward and backward regions of the CMS detector, 3 iron disks constitute the endcap yokes. 
+
+
+\subsubsection{GEM}
+ 
+\begin{comment}
 \section{Trigger and Data Acquisition}\label{sec:trig}
 
 The trigger system in CMS is the start of the physics event selection process. A
