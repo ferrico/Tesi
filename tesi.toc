@@ -24,4 +24,7 @@
 \contentsline {subsubsection}{CSC}{19}{section*.32}
 \contentsline {subsubsection}{RPC}{21}{section*.35}
 \contentsline {subsubsection}{GEM}{22}{section*.37}
-\contentsline {chapter}{Bibliography}{24}{section*.37}
+\contentsline {section}{\numberline {1.5}Trigger and Data Acquisition}{24}{section.1.5}
+\contentsline {subsection}{\numberline {1.5.1}Level $1$ Trigger}{24}{subsection.1.5.1}
+\contentsline {subsubsection}{High Level Trigger}{25}{section*.41}
+\contentsline {chapter}{Bibliography}{26}{section*.41}

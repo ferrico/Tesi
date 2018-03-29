@@ -450,43 +450,27 @@ Resistive Plate Chambers (RPC) are gaseous parallel-plate detectors that combine
 \end{figure}
 In the forward and backward regions of the CMS detector, 3 iron disks constitute the endcap yokes. 
 
-
 \subsubsection{GEM}
+After the upgrade of the LHC injector chain during the second Long Shutdown (LS2), which is currently planned to take place around 2019, the instantaneous luminosity ($\mathcal{L}$) will approach or exceed $2\times10^{34} cm^{-2}s^{-1}$. In order to maintain the high level of performance achieved during Run 1 and Run 2  in the challenging environment of the high luminosity LHC collider (HL-LHC), muon system will improved installing an additional set of muon detectors, GE1/1 (see \figurename~\ref{GEM}), that use gas electron multiplier (GEM) technology in the first endcap muon station in order to maintain or even improve the forward muon triggering and reconstruction in the region 1.6$<|\eta|<$2.2 in the face of high luminosity \cite{GEM}. The project foresees the installation of 72-ten-degree chambers per endcap of CMS. For charged-particle detection, the GE1/1 muon upgrade employs gas electron multipliers (GEMs). GEMs exploit electron amplification that occurs within a gas medium inside narrow holes that perforate a thin polyimide foil in a hexagonal pattern. The GEM foil is clad on both sides with thin conductive layers of copper. A voltage of a few hundred volts is applied across the two layers which creates a strong electric field (60-100 kV/cm) inside the holes that causes electron-ion avalanches in the gas. An arrangement of three cascaded GEM foils, commonly known as a ?Triple-GEM detector? (\figurename~\ref{TripleGEM}) is currently used.
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.6\textwidth]{Images/GEM}
+\caption{A quadrant of the R - z cross-section of the CMS detector, highlighting in red the location of the proposed GE1/1 detector within the CMS muon system.}
+\label{GEM}
+\end{figure}
+\begin{figure}[h!]
+\centering
+\includegraphics[width=0.8\textwidth]{Images/TripleGEM}
+\caption{Left: By cascading three GEM foils, the amplification per stage can be kept modest to avoid electric breakdown problems. Right: Exploded view of the mechanical design of a Triple-GEM chamber.}
+\label{TripleGEM}
+\end{figure}
  
-\begin{comment}
 \section{Trigger and Data Acquisition}\label{sec:trig}
-
-The trigger system in CMS is the start of the physics event selection process. A
-decision to retain an event for further consideration has to be
-made every $25 \,$ns. This decision is based on the event's suitability
-for inclusion in one of the various datasets to be used for analysis.
-The datasets to be taken are determined by CMS physics priorities
-as a whole. These datasets include dilepton and multilepton datasets, diphoton datasets,
-lepton plus jet datasets for top, Higgs and BSM physics, and inclusive electron datasets for calorimeter calibrations.
-In addition, other samples are necessary for measuring efficiencies
-in event selection and studying backgrounds. The trigger has to
-select these samples in real time along with the main data samples.
-
-For the nominal LHC design luminosity of $10^{34} \,$cm$^{-2}$s$^{-1}$, an average
-of $17$ events occurs at the beam crossing frequency of $25$ ns. This
-input rate of $10^9$ interactions every second must be reduced by a
-factor of at least $10^7$ to $100 \,$Hz, the maximum rate that can be
-archived by the on-line computer farm. CMS has chosen to reduce
-this rate in two steps. At the first level (L1) all data is stored for
-$3.2 \, \mathrm{\mu s}$, after which no more than $100 $\,kHz of the stored events are
-forwarded to the High Level Triggers (HLT). The L$1$ system uses only coarsely segmented
-data from calorimeter and muon detectors, while holding all the
-high-resolution data in pipeline memories in the front-end electronics.
-The HLT is provided by a subset of the on-line processor farm which,
-in turn, passes a fraction of these events to the remainder of the
-on-line farm for more complete processing.
-
-
-
-
+The trigger system in CMS is the start of the physics event selection process. A decision to retain an event for further consideration has to be made every $25 \,$ns. This decision is based on the event's suitability for inclusion in one of the various datasets to be used for analysis. The datasets to be taken are determined by CMS physics priorities as a whole. These datasets include dilepton and multilepton datasets, diphoton datasets, lepton plus jet datasets for top, Higgs and BSM physics, and inclusive electron datasets for calorimeter calibrations. In addition, other samples are necessary for measuring efficiencies in event selection and studying backgrounds. The trigger has to select these samples in real time along with the main data samples.
+For the nominal LHC design luminosity of $10^{34} \,$cm$^{-2}$s$^{-1}$, an average of $17$ events occurs at the beam crossing frequency of $25$ ns. This input rate of $10^9$ interactions every second must be reduced by a factor of at least $10^7$ to $100 \,$Hz, the maximum rate that can be archived by the on-line computer farm. CMS has chosen to reduce
+this rate in two steps. At the first level (L1 \cite{L1}) all data is stored for $3.2 \, \mathrm{\mu s}$, after which no more than $100 $\,kHz of the stored events are forwarded to the High Level Triggers (HLT). The L$1$ system uses only coarsely segmented data from calorimeter and muon detectors, while holding all the high-resolution data in pipeline memories in the front-end electronics. The HLT \cite{HLT} is provided by a subset of the on-line processor farm which, in turn, passes a fraction of these events to the remainder of the on-line farm for more complete processing.
 
 \subsection{Level $1$ Trigger}
-
 The design of the CMS Trigger and Data Acquisition system is illustrated in figure~\ref{fig:trigger}.
 \begin{figure}[h!]
 \centering
@@ -494,39 +478,11 @@ The design of the CMS Trigger and Data Acquisition system is illustrated in figu
 \caption{CMS Trigger and Data Acquisition System.}
 \label{fig:trigger}
 \end{figure}
-At the first level all information about the event is preserved.
-The first level decision is made, with negligible dead-time, on a
-subset of the total information available for the events. Since signal propagation delays are included in
-this pipeline time, the L$1$ trigger calculations must be done in
-many cases in less than $1 \, \mathrm{\mu s}$. If the first level trigger generates
-an accept, the event data are moved or assigned to a buffer for
-readout and processing by the High Level Triggers.
+At the first level all information about the event is preserved. The first level decision is made, with negligible dead-time, on a subset of the total information available for the events. Since signal propagation delays are included in this pipeline time, the L$1$ trigger calculations must be done in many cases in less than $1 \, \mathrm{\mu s}$. If the first level trigger generates an accept, the event data are moved or assigned to a buffer for readout and processing by the High Level Triggers. The L$1$ trigger involves the calorimetry and muon systems as well
+as some correlation of information from these systems. The L$1$ decision is based on the presence of local objects such as photons, electrons, muons, and jets, using information from calorimeters, and muon systems in a given element of $\eta$-$\phi$ space. It also employs global sums of $E_T$ and missing $E_T$. Each of these items is tested against several $p_T$ or $E_T$ thresholds.
 
+\subsubsection{High Level Trigger}
+The CMS Level-$1$ Trigger System is required to reduce the input interaction rate of $1 \,$GHz to a filtered event rate of $75 \,$kHz. To match the capabilities of the mass storage and offline computing systems, the final output of the experiment should not exceed $100$ events per second. The High Level Triggers have access to all the information used in L$1$ since this is stored locally in the L$1$ trigger crates. Consequently, High Level Triggers can make further combinations and other topological calculations on the digital list of objects transmitted from L$1$. Eventually, the High Level Triggers use the full event data for the decision to keep an event.
 
-
-The L$1$ trigger involves the calorimetry and muon systems as well
-as some correlation of information from these systems. The L$1$
-decision is based on the presence of local objects such as photons,
-electrons, muons, and jets, using information from calorimeters,
-and muon systems in a given element of $\eta$-$\phi$ space. It also employs
-global sums of $E_T$ and missing $E_T$. Each of these items is tested
-against several $p_T$ or $E_T$ thresholds.
-
-
-\subsection{High Level Trigger}
-
-The CMS Level-$1$ Trigger System is required to reduce the input
-interaction rate of $1 \,$GHz to a filtered event rate of $75 \,$kHz. 
-To match the capabilities of the mass storage and offline computing systems, the final output of the
-experiment should not exceed $100$ events per second.
-
-
-The High Level Triggers have access to all the information used in
-L$1$ since this is stored locally in the L$1$ trigger crates. Consequently,
-High Level Triggers can make further combinations and other topological
-calculations on the digital list of objects transmitted from L$1$.
-Eventually, the High Level Triggers use the full event data for the decision
-to keep an event.
-\end{comment}
 
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.11)  27 MAR 2018 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.4.11)  29 MAR 2018 15:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -878,7 +878,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 Chapter 1.
-<Images/Cern-Accelerator-Complex.jpg, id=73, 845.1575pt x 683.05188pt>
+<Images/Cern-Accelerator-Complex.jpg, id=83, 845.1575pt x 683.05188pt>
 File: Images/Cern-Accelerator-Complex.jpg Graphic file (type jpg)
 
 <use Images/Cern-Accelerator-Complex.jpg>
@@ -892,14 +892,14 @@ um-titanium super-conductor
  []
 
 [5] [6 <./Images/Cern-Accelerator-Complex.jpg>]
-<Images/CMS_Layout.pdf, id=95, 845.1575pt x 597.23125pt>
+<Images/CMS_Layout.pdf, id=105, 845.1575pt x 597.23125pt>
 File: Images/CMS_Layout.pdf Graphic file (type pdf)
 
 <use Images/CMS_Layout.pdf>
 Package pdftex.def Info: Images/CMS_Layout.pdf used on input line 62.
 (pdftex.def)             Requested size: 292.77629pt x 206.8925pt.
  [7] Excluding 'comment' comment. [8 <./Images/CMS_Layout.pdf>]
-<Images/cmsTracker_TrackerLayout.png, id=263, 1471.4975pt x 694.595pt>
+<Images/cmsTracker_TrackerLayout.png, id=273, 1471.4975pt x 694.595pt>
 File: Images/cmsTracker_TrackerLayout.png Graphic file (type png)
 
 <use Images/cmsTracker_TrackerLayout.png>
@@ -914,28 +914,28 @@ Package pdftex.def Info: Images/cmsTracker_TrackerLayout.png used on input line
 (pdftex.def)             Requested size: 41.82791pt x 19.73468pt.
  Excluding 'comment' comment. [9 <./Images/cmsTracker_TrackerLayout.png (PNG co
 py)>]
-<Images/Pixel_structure.jpg, id=274, 221.2869pt x 132.38841pt>
+<Images/Pixel_structure.jpg, id=284, 221.2869pt x 132.38841pt>
 File: Images/Pixel_structure.jpg Graphic file (type jpg)
 
 <use Images/Pixel_structure.jpg>
 Package pdftex.def Info: Images/Pixel_structure.jpg used on input line 146.
 (pdftex.def)             Requested size: 209.12683pt x 125.11577pt.
 
-<Images/New_Pixel.png, id=276, 3646.62375pt x 2042.63126pt>
+<Images/New_Pixel.png, id=286, 3646.62375pt x 2042.63126pt>
 File: Images/New_Pixel.png Graphic file (type png)
 
 <use Images/New_Pixel.png>
 Package pdftex.def Info: Images/New_Pixel.png used on input line 155.
 (pdftex.def)             Requested size: 271.86234pt x 152.25569pt.
  [10 <./Images/Pixel_structure.jpg>]
-<Images/Silicon_structure.png, id=289, 517.935pt x 381.425pt>
+<Images/Silicon_structure.png, id=299, 517.935pt x 381.425pt>
 File: Images/Silicon_structure.png Graphic file (type png)
 
 <use Images/Silicon_structure.png>
 Package pdftex.def Info: Images/Silicon_structure.png used on input line 166.
 (pdftex.def)             Requested size: 146.39133pt x 107.80513pt.
  [11 <./Images/New_Pixel.png>]
-<Images/ECAL_3D.png, id=299, 673.51625pt x 460.72125pt>
+<Images/ECAL_3D.png, id=309, 673.51625pt x 460.72125pt>
 File: Images/ECAL_3D.png Graphic file (type png)
 
 <use Images/ECAL_3D.png>
@@ -950,7 +950,7 @@ Excluding 'comment' comment. Excluding 'comment' comment.
 Underfull \vbox (badness 2418) has occurred while \output is active []
 
  [13 <./Images/ECAL_3D.png>] Excluding 'comment' comment.
-<Images/Ecal_Resolution.pdf, id=314, 261.05519pt x 220.4466pt>
+<Images/Ecal_Resolution.pdf, id=324, 261.05519pt x 220.4466pt>
 File: Images/Ecal_Resolution.pdf Graphic file (type pdf)
 
 <use Images/Ecal_Resolution.pdf>
@@ -961,7 +961,7 @@ Package pdftex.def Info: Images/Ecal_Resolution.pdf used on input line 286.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 Excluding 'comment' comment.
-<Images/HCAL_layout.png, id=317, 1307.88625pt x 768.8725pt>
+<Images/HCAL_layout.png, id=327, 1307.88625pt x 768.8725pt>
 File: Images/HCAL_layout.png Graphic file (type png)
 
 <use Images/HCAL_layout.png>
@@ -969,7 +969,7 @@ Package pdftex.def Info: Images/HCAL_layout.png used on input line 348.
 (pdftex.def)             Requested size: 313.69025pt x 184.40411pt.
  [14] [15 <./Images/Ecal_Resolution.pdf>] [16 <./Images/HCAL_layout.png (PNG co
 py)>]
-<Images/cms_slice.pdf, id=375, 326.21875pt x 235.88126pt>
+<Images/cms_slice.pdf, id=385, 326.21875pt x 235.88126pt>
 File: Images/cms_slice.pdf Graphic file (type pdf)
 
 <use Images/cms_slice.pdf>
@@ -982,7 +982,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/muonsyst.pdf, id=378, 790.955pt x 574.145pt>
+<Images/muonsyst.pdf, id=388, 790.955pt x 574.145pt>
 File: Images/muonsyst.pdf Graphic file (type pdf)
  <use Images/muonsyst.pdf>
 Package pdftex.def Info: Images/muonsyst.pdf used on input line 396.
@@ -994,19 +994,19 @@ Underfull \vbox (badness 3557) has occurred while \output is active []
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/DT.png, id=386, 675.52374pt x 623.32875pt>
+<Images/DT.png, id=396, 675.52374pt x 623.32875pt>
 File: Images/DT.png Graphic file (type png)
  <use Images/DT.png>
 Package pdftex.def Info: Images/DT.png used on input line 405.
 (pdftex.def)             Requested size: 209.12683pt x 192.9636pt.
 
-<Images/DTchamber.png, id=388, 426.59375pt x 306.14375pt>
+<Images/DTchamber.png, id=398, 426.59375pt x 306.14375pt>
 File: Images/DTchamber.png Graphic file (type png)
 
 <use Images/DTchamber.png>
 Package pdftex.def Info: Images/DTchamber.png used on input line 412.
 (pdftex.def)             Requested size: 209.12683pt x 150.0818pt.
- <Images/DT_cell.png, id=390, 740.7675pt x 329.23pt>
+ <Images/DT_cell.png, id=400, 740.7675pt x 329.23pt>
 File: Images/DT_cell.png Graphic file (type png)
 
 <use Images/DT_cell.png>
@@ -1025,7 +1025,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/CSC.png, id=552, 899.36pt x 530.98375pt>
+<Images/CSC.png, id=562, 899.36pt x 530.98375pt>
 File: Images/CSC.png Graphic file (type png)
  <use Images/CSC.png>
 Package pdftex.def Info: Images/CSC.png used on input line 428.
@@ -1034,14 +1034,14 @@ Package pdftex.def Info: Images/CSC.png used on input line 428.
 
 LaTeX Warning: Reference `CSC_chamber' on page 19 undefined on input line 433.
 
-<Images/CSC_chamber.png, id=553, 430.60875pt x 401.5pt>
+<Images/CSC_chamber.png, id=563, 430.60875pt x 401.5pt>
 File: Images/CSC_chamber.png Graphic file (type png)
 
 <use Images/CSC_chamber.png>
 Package pdftex.def Info: Images/CSC_chamber.png used on input line 437.
 (pdftex.def)             Requested size: 167.2989pt x 155.9901pt.
 
-<Images/CSC_chamber_2.png, id=554, 430.60875pt x 418.56375pt>
+<Images/CSC_chamber_2.png, id=564, 430.60875pt x 418.56375pt>
 File: Images/CSC_chamber_2.png Graphic file (type png)
 
 <use Images/CSC_chamber_2.png>
@@ -1055,7 +1055,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 Underfull \vbox (badness 1019) has occurred while \output is active []
 
  [20 <./Images/DT.png> <./Images/DTchamber.png (PNG copy)>]
-<Images/RPC_B.png, id=579, 853.1875pt x 623.32875pt>
+<Images/RPC_B.png, id=589, 853.1875pt x 623.32875pt>
 File: Images/RPC_B.png Graphic file (type png)
  <use Images/RPC_B.png>
 Package pdftex.def Info: Images/RPC_B.png used on input line 449.
@@ -1065,11 +1065,43 @@ Package pdftex.def Info: Images/RPC_B.png used on input line 449.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-Excluding 'comment' comment.) [22 <./Images/CSC_chamber.png> <./Images/CSC_cham
-ber_2.png>] [23 <./Images/RPC_B.png>]
+<Images/GEM.jpg, id=599, 358.1522pt x 235.99672pt>
+File: Images/GEM.jpg Graphic file (type jpg)
+ <use Images/GEM.jpg>
+Package pdftex.def Info: Images/GEM.jpg used on input line 459.
+(pdftex.def)             Requested size: 250.95476pt x 165.36581pt.
+
+<Images/TripleGEM.png, id=600, 972.63374pt x 382.42876pt>
+File: Images/TripleGEM.png Graphic file (type png)
+
+<use Images/TripleGEM.png>
+Package pdftex.def Info: Images/TripleGEM.png used on input line 465.
+(pdftex.def)             Requested size: 334.60422pt x 131.55875pt.
+ [22 <./Images/CSC_chamber.png> <./Images/CSC_chamber_2.png>] [23 <./Images/RPC
+_B.png> <./Images/GEM.jpg>]
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 475.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `math shift' on input line 475.
+
+<Images/trigger.pdf, id=623, 477.56078pt x 235.39343pt>
+File: Images/trigger.pdf Graphic file (type pdf)
+
+<use Images/trigger.pdf>
+Package pdftex.def Info: Images/trigger.pdf used on input line 479.
+(pdftex.def)             Requested size: 376.42575pt x 185.55289pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[24 <./Images/TripleGEM.png>]) [25 <./Images/trigger.pdf>]
 \openout2 = `biblio.aux'.
 
- (./biblio.tex [24
+ (./biblio.tex
+[26
 
 
 
@@ -1079,14 +1111,25 @@ Underfull \hbox (badness 2020) in paragraph at lines 18--19
 -sure-ment of the Pos-i-tive Muon Life-
  []
 
-[25] [26])
+[27]
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+[]\OT1/cmr/m/n/10.95 CMS Col-lab-o-ra-tion, [CMS TECH-NI-CAL DE-SIGN RE-PORT FO
+R
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
+\OT1/cmr/m/n/10.95 THE MUON END-CAP GEM UP-GRADE], CERN-LHCC-2015-012,
+ []
+
+[28])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 102.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 102.
  (./tesi.aux (./frontespizio.aux) (./Chapter2.aux) (./biblio.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 102.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 102.
 Package rerunfilecheck Info: File `tesi.out' has not changed.
-(rerunfilecheck)             Checksum: 50B7B823B405E3AF880E775DAA9D7016;583.
+(rerunfilecheck)             Checksum: 9EF4401BD8190CF21ABA9E97FEDEFB93;727.
 
 
 LaTeX Warning: There were undefined references.
@@ -1094,11 +1137,11 @@ LaTeX Warning: There were undefined references.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 102.
  ) 
 Here is how much of TeX's memory you used:
- 17498 strings out of 493089
- 333680 string characters out of 6134842
- 388319 words of memory out of 5000000
- 20621 multiletter control sequences out of 15000+600000
- 13743 words of font info for 53 fonts, out of 8000000 for 9000
+ 17544 strings out of 493089
+ 334316 string characters out of 6134842
+ 388949 words of memory out of 5000000
+ 20650 multiletter control sequences out of 15000+600000
+ 15572 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,12n,49p,10371b,850s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
@@ -1107,16 +1150,17 @@ Here is how much of TeX's memory you used:
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></us
 r/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loc
-al/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/
-texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on tesi.pdf (26 pages, 7130726 bytes).
+local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/lo
+cal/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local
+/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texl
+ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texliv
+e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
+Output written on tesi.pdf (28 pages, 7925131 bytes).
 PDF statistics:
- 695 PDF objects out of 1000 (max. 8388607)
- 403 compressed objects within 5 object streams
- 105 named destinations out of 1000 (max. 500000)
- 163 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 866 PDF objects out of 1000 (max. 8388607)
+ 529 compressed objects within 6 object streams
+ 116 named destinations out of 1000 (max. 500000)
+ 194 words of extra memory for PDF output out of 10000 (max. 10000000)
 
