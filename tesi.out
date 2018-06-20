@@ -1,11 +1,23 @@
-\BOOKMARK [0][-]{chapter.1}{The CMS detector at LHC}{}% 1
-\BOOKMARK [1][-]{section.1.1}{The Large Hadron Collider}{chapter.1}% 2
-\BOOKMARK [1][-]{section.1.2}{The Compact Muon Solenoid}{chapter.1}% 3
-\BOOKMARK [2][-]{subsection.1.2.1}{The tracking system}{section.1.2}% 4
-\BOOKMARK [2][-]{subsection.1.2.2}{Electromagnetic calorimeter}{section.1.2}% 5
-\BOOKMARK [2][-]{subsection.1.2.3}{Hadronic Calorimeter}{section.1.2}% 6
-\BOOKMARK [1][-]{section.1.3}{Magnet}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.4}{Muon System}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.5}{Trigger and Data Acquisition}{chapter.1}% 9
-\BOOKMARK [2][-]{subsection.1.5.1}{Level 1 Trigger}{section.1.5}% 10
-\BOOKMARK [0][-]{section*.41}{Bibliography}{}% 11
+\BOOKMARK [0][-]{chapter.1}{The Standard Model and beyond}{}% 1
+\BOOKMARK [1][-]{section.1.1}{The Standard Model}{chapter.1}% 2
+\BOOKMARK [2][-]{subsection.1.1.1}{Fundamental Particles}{section.1.1}% 3
+\BOOKMARK [2][-]{subsection.1.1.2}{Gauge Symmetries}{section.1.1}% 4
+\BOOKMARK [2][-]{subsection.1.1.3}{Spontaneous Symmetry Breaking and the Higgs Boson}{section.1.1}% 5
+\BOOKMARK [1][-]{section.1.2}{The Higgs boson}{chapter.1}% 6
+\BOOKMARK [2][-]{subsection.1.2.1}{The Higgs boson: production mechanisms}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.2}{The Higgs boson: decay channels}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Beyond Standard Model \(BSM\)}{chapter.1}% 9
+\BOOKMARK [0][-]{chapter.2}{The CMS detector at LHC}{}% 10
+\BOOKMARK [1][-]{section.2.1}{The Large Hadron Collider}{chapter.2}% 11
+\BOOKMARK [1][-]{section.2.2}{The Compact Muon Solenoid}{chapter.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.1}{The tracking system}{section.2.2}% 13
+\BOOKMARK [2][-]{subsection.2.2.2}{Electromagnetic calorimeter}{section.2.2}% 14
+\BOOKMARK [2][-]{subsection.2.2.3}{Hadronic Calorimeter}{section.2.2}% 15
+\BOOKMARK [1][-]{section.2.3}{Magnet}{chapter.2}% 16
+\BOOKMARK [1][-]{section.2.4}{Muon System}{chapter.2}% 17
+\BOOKMARK [1][-]{section.2.5}{Trigger and Data Acquisition}{chapter.2}% 18
+\BOOKMARK [2][-]{subsection.2.5.1}{Level 1 Trigger}{section.2.5}% 19
+\BOOKMARK [0][-]{chapter.3}{Object reconstruction in CMS}{}% 20
+\BOOKMARK [1][-]{section.3.1}{Photons}{chapter.3}% 21
+\BOOKMARK [1][-]{section.3.2}{Electrons}{chapter.3}% 22
+\BOOKMARK [0][-]{section.3.2}{Bibliography}{}% 23

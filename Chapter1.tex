@@ -11,7 +11,7 @@ This chapter will describe in details the Standard Model and some theories devel
 \label{cap1:SM}
 \subsection{Fundamental Particles}
 \label{cap1:pi}
-All matter around us is made of elementary particles, the building blocks of matter. These particles are divided into two groups: \textit{leptons}, with an entire value of electric charge, and \textit{quarks}, with a fractional charge. Each group consists of six particles, which are related in pairs, or generations. The six quarks are paired in the three generations: the up quark and the down quark form the first generation, followed by the charm quark and strange quark, then the top quark and bottom (or beauty) quark.  The six leptons are similarly arranged in three generations: the electron and the electron neutrino, the muon and the muon neutrino, and the tau and the tau neutrino. While electron, muon and tau are charged particles, the neutrinos are electrically neutral. In \tablename~\ref{leptonsSM} and \ref{quarkSM}, the features of leptons and quarks.
+All matter around us is made of elementary particles with no substructure, well defined by some quantum numbers. These particles are divided into two groups: \textit{leptons}, with an entire value of electric charge, and \textit{quarks}, with a fractional charge. Each group consists of six particles, which are related in pairs or generations. The six quarks are paired in the three generations: the up and the down quark form the first generation (u, d), followed by the charm and strange  (c, s), then the top and bottom (or beauty) quark (t, b).  The six leptons are also similarly arranged in three generations: the electron (e) and the electronic neutrino ($\nu_{e}$), the muon ($\mu$)  with the muonic neutrino ($\nu_{\mu}$), and the tau ($\tau$) with the tauonic neutrino ($\nu_{\tau}$). While electron, muon and tau are charged particles, the neutrinos are electrically neutral. In \tablename~\ref{leptonsSM} and \ref{quarkSM}, the features of leptons and quarks.
 \begin{table}[ht]	
 	\begin{center}
 		\begin{tabular}{|ccc|}
@@ -19,14 +19,14 @@ All matter around us is made of elementary particles, the building blocks of mat
 			\hline   Flavor & Charge & Mass[MeV]  \\
 			\hline
 			\hline
-			 neutrino e. ($\nu_{e}$) & 0 & $<0.002$   \\
-			 electron ($e$) & -1 & 0.511   \\
+			electronic neutrino ($\nu_{e}$) & 0 & $<0.002$   \\
+			electron ($e$) & -1 & 0.511   \\
 			\hline
-			 neutrino mu ($\nu_{\mu}$) & 0 & $<0.19$   \\
-			 muon ($\mu$) & -1 & 105.66   \\
+			muonic neutrino ($\nu_{\mu}$) & 0 & $<0.19$   \\
+			muon ($\mu$) & -1 & 105.66   \\
 			\hline
-			 neutrino tau ($\nu_{\tau}$) & 0 & $<18.2$ \\
-			 tau ($\tau$) & -1 & 1776.86$\pm$0.12  \\
+			tauonic neutrino ($\nu_{\tau}$) & 0 & $<18.2$ \\
+			tau ($\tau$) & -1 & 1776.86$\pm$0.12  \\
 			\hline
 			\hline
 		\end{tabular}
@@ -58,7 +58,7 @@ All matter around us is made of elementary particles, the building blocks of mat
 	\label{quarkSM}
 \end{table}
 
-Beside these leptons and quarks, there are other particles responsible of carrying the fundamental forces, the so called \textit{bosons}. The Electromagnetic Force, responsible of all eletrical and magnetic phenomena, is mediated by the phtons {$\gamma$}; the Weak Force, responsible of some decays, is mediate by $W^{\pm}$ and $Z$ bosons; the Strong Force, responsible for example of the atomic structure, is mediated by the gluons ($g$). Last fundamental force, not yet included in the SM, is the Gravity that is the weakest. In \tablename~\ref{bosonsSM} the features of the bosons.
+Beside leptons and quarks, there are other particles called \textit{bosons} responsible of carrying (or mediating) the fundamental forces:. Electromagnetic Force, responsible of all eletcrical and magnetic phenomena, is mediated by the photons {$\gamma$}; the Weak Force, responsible of some decays, is mediated by $W^{\pm}$ and $Z$ bosons; the Strong Force, responsible for example of the atomic structure, is mediated by the gluons ($g$). Last fundamental force, but not yet included in the SM due to its low strength compared to the others, is the Gravity that is the weakest. In \tablename~\ref{bosonsSM} the features of the bosons.
 \begin{table}[htbp]	
 	\begin{center}
 		\begin{tabular}{|cccc|}
@@ -89,14 +89,13 @@ The fundamental quantity in classical mechanics is the action \textit{S}, the ti
 \begin{equation}
 S = \int L\, dt = \int \mathcal{L}(\phi, \partial \phi / \partial x_{\mu}) \,d^{4}x
 \end{equation}
-where $\mathcal{L}$ is the Lagrangian Density\footnote{however, following standard use in field theory, we will often refer to $\mathcal{L}$ simply Lagrangian.}, 
-and $\phi$ is the filed, itself a function of the continuous parameters $x_{\mu}$ \cite{Peskin}\cite{Maggiore}.
-%\begin{equation}
-%L \equiv T - V
-%\end{equation}
-%where T and V are the kinetic and potential energy of the system respectively.
-The \textit{principle of least action} states that fixed the values of the coordinates at the initial time $t_{in}$ and at the final time $t_{f}$, then classical trajectory which satisfies these conditions is an extremum of the action. This leads to the \textit{Euler-Lagrange} equations (\ref{Eul_Lagr_Eq})
-from which can be obtained the particle equations of motion.
+where $\mathcal{L}$ is the Lagrangian Density\footnote{however, following standard use in field theory, we will often refer to $\mathcal{L}$ simply Lagrangian.} 
+and $\phi$ is the field, itself a function of the continuous parameters $x_{\mu}$ \cite{Peskin}\cite{Maggiore}.
+\begin{equation}
+L \equiv T - V
+\end{equation}
+where T and V are the kinetic and potential energy of the system respectively.\\
+Thanks to the \textit{Principle of least action}\footnote{Fixed the values of the coordinates at the initial and at the final time, classical trajectory which satisfies these conditions is an extremum of the action.} is possible deduce the \textit{Euler-Lagrange} equations (\ref{Eul_Lagr_Eq}) from which can be obtained the particle equations of motion.
 \begin{equation}
 \frac{\partial \mathcal{L}}{\partial \phi} - \frac{\partial}{\partial x_{\mu}}\frac{\partial \mathcal{L}}{\partial(\partial \phi / \partial x_{\mu})} = 0
 \label{Eul_Lagr_Eq}
@@ -114,7 +113,7 @@ Let's start with a complex field $\psi$ describing a free electron with mass m: 
 \label{L_electron}
 \end{equation}
 and its equation of motion can be deduced by the Dirac Equation, obtained substituting \ref{L_electron} in \ref{Eul_Lagr_Eq}. \\
-The electromagnetic (em)  field instead is described by a four-vector $A_{\mu}$, the gauge potential. The field strength tensor is defined as:
+The electromagnetic (em)  field instead is described by the four-vector gauge potential $A_{\mu}$. The field strength tensor is defined as:
 \begin{equation}
 F_{\mu\nu} = \partial_{\mu}A_{\nu} - \partial_{\nu}A_{\mu}
 \label{F_em}
@@ -140,8 +139,8 @@ It can be shown that \ref{L_electron_em} is invariant under the phase transforma
 \psi(x)\to e^{-iQ\theta} \psi(x)
 \label{global_trans}
 \end{equation}
-with $\theta \in \Re$. This transformation belongs to the group U(1) and according to Noether's theorem, it implies the existence of a conserved current: the electric charge.
-In this case, known as \textit{global "gauge" invariance}, once the value of $\theta$ is fixed, it is specified for all space and time. \\
+with $\theta \in \Re$. This transformation belongs to the group U(1) and according to Noether's theorem, it implies the existence of a conserved current: in this case, the electric charge.
+Since once the value of $\theta$ is fixed, the invariance is specified for all space and time, it is known as \textit{global gauge invariance}. \\
 More interesting is the case in which the parameter $\theta$ depends on space and time in a completely arbitrary way:
 \begin{equation}
 \psi(x)\to e^{-iQ\theta(x)} \psi(x)
@@ -166,7 +165,7 @@ For free quark described by the field $q_{j}$, the Lagrangian is:
 \end{equation}
 In order to describe the  interaction between quarks and gluons, it is needed to change the quark derivative by covariant objects. Since there are now eight independent gauge parameters, eight different gauge bosons $G^{\mu}_{a}(x)$, the so-called gluons, are needed:
 \begin{equation}
-D^{\mu}_{q_{f}} \equiv [\partial^{\mu}- ig_{s}\frac{\lambda^{a}}{2}G^{\mu}_{a}(x)]
+D^{\mu}_{q_{j}} \equiv [\partial^{\mu}- ig_{s}\frac{\lambda^{a}}{2}G^{\mu}_{a}(x)]
 \label{D_covariante_qcd}
 \end{equation}
 The corresponding field strengths are also introduced:
@@ -194,14 +193,14 @@ q(x) \to q'(x) = Uq(x) \equiv e^{i\theta_{a}(x)\frac{\lambda^{a}}{2}}q(x), \quad
 The group is non-Abelian since not all the generators $\lambda_{a}$ commute with each other. \\
 To ensure the invariance of the Lagrangian \ref{L_quark_gluon}, the gauge fields must transform as follow:
 \begin{equation}
-G^{a}_{\mu} \to G^{a}_{\mu} - \frac{1}{g_{s}} \partial_{\mu}\theta_{a} - f_{abc}\theta^{b}G^{c}_{\mu}
+G_{\mu a} \to G_{\mu a} - \frac{1}{g_{s}} \partial_{\mu}\theta_{a} - f_{abc}\theta^{b}G^{c}_{\mu}
 \label{G_tranf_local}
 \end{equation}
-The field tensor $G^{\mu\nu}_{a}$ has a remarkable new property: imposing gauge symmetry (\ref{q_tranf_local} and \ref{G_tranf_local}) has required that the kinematic energy term in \ref{L_quark_gluon} in not purely kinetic but includes an induced self-interaction between the gauge bosons. Decomposing the Lagrangian into its different pieces, there are three terms analogues to QED describing the free propagation of quarks and gluons and the quark-gluon interaction. The remaining two terms show the presence of three and four gluon self-coupling in QCD and reflect the fact that gluons themselves carry color charge. They have no analogue in QED and arise on account of the non-Abelian character of the gauge group. As in QED, the absence of a mass term implies gluons must be massless.\\
+The field tensor $G^{\mu\nu}_{a}$ has a remarkable new property: imposing gauge symmetry (\ref{q_tranf_local} and \ref{G_tranf_local}), it has required kinematic energy term in \ref{L_quark_gluon} is not purely kinetic but includes an induced self-interaction between the gauge bosons. Decomposing the Lagrangian into its different pieces, there are three terms analogues to QED describing the free propagation of quarks and gluons and the quark-gluon interaction and two terms showing the presence of three and four gluon self-coupling in QCD reflecting the fact that gluons themselves carry color charge. They have no analogue in QED and arise on account of the non-Abelian character of the gauge group. As in QED, the absence of a mass term implies gluons must be massless.\\
 
 \subsubsection{The electroweak theory}\index{EWK}
 Low-energy experiments have provided a large amount of information about the dynamics underlying flavour-changing processes. The detailed analysis of the energy and angular distributions in $\beta$ decays, such as $\mu^{-} \to e^{-}\bar{\nu}_{e}\nu_{\mu}$, made clear that only the left-handed (right-handed) fermion (antifermion) chiralities participate in those weak transitions. Moreover, the strength of the interaction appears to be universal. \\
-Using gauge invariance, it is possible to determine the right QED (\ref{QED} and QCD \ref{QCD} Lagrangians. To describe weak interactions, a more elaborated structure is needed, with several fermionic flavours and different properties for left- and right-handed fields. Moreover, the left-handed fermions should appear in doublets, and we would like to have gauge bosons in addition to the photon. The simplest group with doublet representations is SU(2) while to include also the electromagnetic interactions an additional U(1) group is needed. The obvious symmetry group to consider is then:
+Using gauge invariance, it is possible to determine the right QED (\ref{L_electron_em}) and QCD (\ref{L_quark_gluon}) Lagrangians. To describe weak interactions, a more elaborated structure is needed, with several fermionic flavours and different properties for left- and right-handed fields. Moreover, the left-handed fermions should appear in doublets, and we would like to have gauge bosons in addition to the photon. The simplest group with doublet representations is SU(2) while to include also the electromagnetic interactions an additional U(1) group is needed. The obvious symmetry group to consider is then:
 \begin{equation}
 G \equiv SU(2)_{L} \otimes U(1)_{Y}
 \label{EWK_group}
@@ -226,7 +225,7 @@ As in QED and QCD case, starts with free Lagrangian:
 \end{equation}
 The interaction is again introduced changing the derivative with the covariante:
 \begin{equation}
-D_{\mu} = \partial_{\mu} + igW_{\mu}^{a}T^{a} + ig'B_{\mu}Y
+D_{\mu} = \partial_{\mu} + igW_{\mu}^{a}T_{a} + ig'B_{\mu}Y
 \label{D_EWK}
 \end{equation}
 where $W_{\mu}^{a}$ a = 1, 2, 3 are the three gauge bosons associated with the group $SU(2)_{L}$, $T^{a}$ its generators and g the constant couplings; $B_{\mu}$, Y and g are instead respectively the gauge boson, the generator and the constant coupling for the group $U(1)_{Y}$.
@@ -255,7 +254,7 @@ As in QED and QCD case, also electroweak interaction is invariant under global t
 Moving to local transformation, in order to guarantee Lagrangian \ref{L_EWK} to be invariant, the gauge bosons must have following transformation rules:
 \begin{equation}
 \begin{split}
-W^{a}_{\mu} &\to U_{L}(x) W^{a}_{\mu} \frac{\sigma_{a}}{2} U_{L}(x)^{\dagger} - \frac{i}{g}\partial_{\mu}U_{L}(x) U_{L}(x)^{\dagger}, \\
+W^{a}_{\mu} &\to U_{L}(x) W^{a}_{\mu}  U_{L}(x)^{\dagger} - \frac{i}{g}\partial_{\mu}U_{L}(x) U_{L}(x)^{\dagger}, \\
 B_{\mu} &\to B_{\mu} + \frac{1}{g'}\partial_{\mu}\beta
 \label{EWK_global}
 \end{split}
@@ -264,7 +263,7 @@ where $U(x)_{L} = e^{i\sigma_{a} / 2\ \alpha(x)^{a}}$. The transformation of $B_
 The gauge symmetry forbids to write a mass term for the gauge bosons in \ref{L_EWK}. Fermionic masses are also not possible, because they would communicate the left- and right-handed fields, which have different transformation properties, and therefore would produce an explicit breaking of the gauge symmetry. Thus, the $SU(2)_{L} \otimes U(1)_{Y}$ Lagrangian in \ref{L_EWK} only contains massless fields.\\
 The term containing the $SU(2)_{L}$ matrix:
 \begin{equation}
-\frac{\sigma^{a}}{2}W_{\mu}^{a} = \frac{1}{\sqrt{2}}\begin{pmatrix} \sqrt{2}W^{3}_{\mu} & W_{\mu}^{+} \\ W_{\mu}^{-} & - \sqrt{2}W^{3}_{\mu} \end{pmatrix}
+\frac{\sigma_{a}}{2}W_{\mu}^{a} = \frac{1}{\sqrt{2}}\begin{pmatrix} \sqrt{2}W^{3}_{\mu} & W_{\mu}^{+} \\ W_{\mu}^{-} & - \sqrt{2}W^{3}_{\mu} \end{pmatrix}
 \end{equation}
 gives rise to charged-current interactions with the bosons field $W_{\mu}^{\pm} \equiv (W^{1}_{\mu} \mp iW^{2}_{\mu}) / \sqrt{2}$. \\
 La Lagrangian \ref{L_EWK}  contains also interactions with the neutral gauge field $W^{3}_{\mu}$ and $B_{\mu}$; one can define
@@ -282,7 +281,7 @@ or reversing:
 {W^{3}_{\mu} \choose B_{\mu}} \equiv \begin{pmatrix} \cos\theta_{W} & \sin\theta_{W} \\ -\sin\theta_{W} & \cos\theta_{W} \end{pmatrix} {Z_{\mu} \choose A_{\mu}}
 \label{W_B_A_Z}
 \end{equation}
-With these definitions, it can be observed the $A_{\mu}$ in\ref{L_EWK} couple in the same way with $l_{L}$ and $l_{R}$ as the photon: to get QED from these one needs to impose
+With these definitions, it can be observed the $A_{\mu}$ in \ref{L_EWK} couple in the same way with $l_{L}$ and $l_{R}$ as the photon: to get QED from these one needs to impose
 \begin{equation}
 g\sin\theta_{W} = g'\cos\theta_{W} = e
 \label{g_gprime}
@@ -354,7 +353,7 @@ This is a particular choice of gauge, with $\theta(x)$ chosen so that h is real.
 \end{split}
 \label{L0_U1_prime}
 \end{equation}
-The Goldstone boson does not appear in the theory. That is because it corresponding only to the freedom to make a gauge transformation. The Lagrangian \ref{L0_U1_prime} describes just two interacting massive particles, a vector gauge bosoon $A_{\mu}$ and a massive scalar h, which is called a \textit{Higgs particle}. This is called the "\textit{Higgs mechanism}".\\
+The Goldstone boson does not appear in the theory. That is because it corresponding only to the freedom to make a gauge transformation. The Lagrangian \ref{L0_U1_prime} describes just two interacting massive particles, a vector gauge bosoon $A_{\mu}$ and a massive scalar h, which is called a \textit{Higgs particle}. This is called the \textit{"Higgs mechanism"}.\\
 %\subsubsection{The Higgs Mechanism for $SU(2)_{L} \otimes U(1)_{Y}$ symmetry
 Consider now the case of  $SU(2)_{L} \otimes U(1)_{Y}$ symmetry \cite{SU2_Hmechanism} with the Lagrangian
 \begin{equation}
@@ -380,17 +379,17 @@ M_{W}^{2} = \frac{\nu^{2}g^{2}}{4}, \quad M_{Z}^{2} = \frac{\nu^{2}g^{2}}{4\cos^
 \end{equation}
 From experimental observation \cite{PDG}:
 \begin{equation}
-M_{Z} = XXX\pm0XXX\ GeV, \quad M_{W} = XXX\pm XX\ GeV
+M_{Z} = 91.1876\pm0.0021\ GeV, \quad M_{W} = 80.385\pm 0.015\ GeV
 \end{equation}
 From these experimental numbers, one obtains the electroweak mixing angle:
 \begin{equation}
-\sin^{2}\theta_{W} = 1-\frac{M^{2}_{W}}{M^{2}_{Z}} = XXXX
+\sin^{2}\theta_{W} = 1-\frac{M^{2}_{W}}{M^{2}_{Z}} = 0.22336 \pm 0.00010
 \end{equation}
 The scalar vacuum expectation value is:
 \begin{equation}
 \nu=(\sqrt{2}G_{F})^{-1/2}=246\ GeV
 \end{equation}
-where $G_{F}$ = XXXXX is the Fermi coupling whose value can be measured with the muon lifetime \cite{muLifetime}.\\
+where $G_{F} = 1.1663787 \times 10^{-5} GeV^{-1}$ is the Fermi coupling whose value can be measured with the muon lifetime \cite{muLifetime}.\\
 From \ref{L0_SU2}, the potential $V(\phi)$ can be seen as:
 \begin{equation}
 V(\phi)=-\frac{1}{4}\lambda\nu^{2}+V_{H}+V_{HG^{2}}
@@ -428,7 +427,7 @@ In \ref{L0_quark_mass}, the (u,\ d) quark doublet are considered even if the wea
 \label{L0_quark_mass_2}
 \end{equation}
 with i, j = 1, ..., N,  where N is the number of quark doublet. Substituting $\phi_{c}$ expression, the masses depend on the arbitrary couplings $G_{u,d}$ but, as for electron, it cannot be predicted.\\
-The choose of a particular single Higgs doublet is sufficient on one hand to generate the masses of both of the gauge bosons and the fermions but on the other hand, the masses of the fermoins are just parameteres of the theory and are not predicted. 
+The choose of a particular single Higgs doublet is sufficient on one hand to generate the masses of both the gauge bosons and the fermions but on the other hand, the masses of the fermoins are just parameteres of the theory and are not predicted. 
 %At the same time, the mass of the Higgs $m_{h}$ is itself not predicted: from the first two terms of the effective potential, $V(\phi) = \mu^{2}\phi^{\dagger}\phi+\lambda(\phi^{\dagger}\phi)^{2}+O(3)$, the mass can be defined as $m_{h}^{2} = 2\nu^{2}\lambda$: theoretical limits indicate that $m_{h} \ge 10\ GeV$. \\
 \\ To summarise, the complete Lagrangian of the SM is:
 \begin{equation}
@@ -440,21 +439,22 @@ The choose of a particular single Higgs doublet is sufficient on one hand to gen
 \end{split}
 \end{equation}
 The first two terms represent the $W^{\pm}$, Z, $\gamma$ kinetic energies and the self-interactions; the third and the fourth term the lepton and quark kinetic energies and their interaction with weak W, Z and $\gamma$; the last terms stand for masses and coupling of the Higgs, bosons, leptons and quark. \\
+Without the Higgs boson, the calculability of the SM would have been spoiled. In particular, perturbative unitarity \cite{PerturbativeHiggs_1, PerturbativeHiggs_2} would be lost at high energies as the longitudinal W/Z boson scattering amplitude would grow as the centre-of-mass energy increases. Moreover, the radiative corrections to the gauge boson self-energies would exhibit dangerous logarithmic divergences that would be difficult to reconcile with ElectroWeak precision data. With the discovery of the Higgs boson, it has been experimentally established that the SM is based on a gauge theory that could a priori be consistently extrapolated to the Planck scale.
 
 \section{The Higgs boson}
-The SM Higgs boson is a CP-even scalar of spin 0 \cite{PDG}. Its mass is given by $m_{h} = \sqrt{2\lambda\nu^{2}}$, where $\lambda$ is the Higgs self-coupling parameter in the potential $V(\phi)$. The experimentally Higgs mass, $m_{h} \simeq 125\ GeV$ \cite{ALTAS_H}\cite{CMS_H}, implies $\lambda \simeq 0.1$ and $|m| \simeq 88.8\ GeV$. \\
-The Higgs boson couplings to the fundamental particles are set by their masses: very weak for light particles, such as up and down quarks, and electrons, but for heavy particles such as the W and Z bosons and the top quark. In particular, the SM Higgs coupling fo fundamental fermions are linearly proportional to the fermion masses. whereas the couplings to bosons are proportional to the squares of the boson masses. As consequence, the dominant mechanism for Higgs boson production and decay involve the coupling of H to W, Z and/or the third generation quarks and leptons. The Higgs boson coupling to  gluons is induced at leading order by a one-loop process in which H couples to a virtual $t\bar{t}$ pair. Likewise, the Higgs boson couplings to photons is also generated via loops, although in this case the one-loop graph with a virtual $W^{+}W^{-}$ pair provides the dominant contribution and the one involving a virtual $t\bar{t}$ pair is subdominant. \\
+The SM Higgs boson is a CP-even scalar of spin 0 \cite{PDG}. Its mass is given by $m_{h} = \sqrt{2\lambda\nu^{2}}$, where $\lambda$ is the Higgs self-coupling parameter in the potential $V(\phi)$. The experimentally Higgs mass, $m_{h} \simeq 125\ GeV$ \cite{ALTAS_H}\cite{CMS_H}, implies $\lambda \simeq 0.1$. \\
+The Higgs boson couplings to the fundamental particles are set by their masses: very weak for light particles, such as up and down quarks, and electrons, but strong for heavy particles such as the W and Z bosons and the top quark. In particular, the SM Higgs coupling to fundamental fermions are linearly proportional to the fermion masses $m_{f}$ ($y_{f} = m_{f}/\nu$ where $y_{f}$ is the Yukawa coupling) whereas the couplings to bosons are proportional to the squares of the boson masses. As consequence, the dominant mechanism for Higgs boson production and decay involve the coupling of H to W, Z and/or the third generation quarks and leptons. The Higgs boson coupling to  gluons is induced at leading order by a one-loop process in which H couples to a virtual $t\bar{t}$ pair. Likewise, the Higgs boson couplings to photons is also generated via loops, although in this case the one-loop graph with a virtual $W^{+}W^{-}$ pair provides the dominant contribution and the one involving a virtual $t\bar{t}$ pair is subdominant. \\
 
 \subsection{The Higgs boson: production mechanisms}
 The main production mechanisms at the LHC are gluon fusion, weak-boson fusion, associated production with gauge boson and associated production with a pair of top/antitop quarks. 
-The corresponding Feynman diagrams are reported in \figurename~\ref{Feynman_H_production}.
+The corresponding Feynman diagrams are reported in \figurename~\ref{Feynman_H_production}; \figurename~\ref{plot_13tev_H_production} summarises the cross section as a function of mass for these dominant Higgs production processes for a center of mass energy of 13 TeV. 
+
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.45\textwidth]{Images/Feynman_H_production}
 \caption{Main Leading Order Feynman diagrams contributing to the Higgs production: (a) gluon fusion, (b) Vector-boson fusion, (c) Higgs-strahlung (or associated production with a gauge boson), (d) associated production with a pair of top (or bottom quarks), (e-f) production in association with a single top quark.}
 \label{Feynman_H_production}
 \end{figure}
-\figurename~\ref{plot_13tev_H_production} summarises these dominant Higgs production processes for a center of mass energy of 13 TeV. \\
 \begin{figure}[htbp]
 \centering
 \includegraphics[width=0.45\textwidth]{Images/plot_13tev_H_production}
@@ -471,8 +471,8 @@ The Higgs boson production mechanism with the largest cross section is the gluon
 The SM Higgs production mode with the second-largest cross section is Vector Boson Fusion (VBF): $qq \to qqH$ (\figurename~\ref{Feynman_H_production}b). This mechanism proceed by the scattering of two (anti-)quarks, mediated by exchange of a W or Z boson, with the Higgs boson radiated off the weak-boson propagator. The scattered quarks give rise to two hard jets in the forward and backward regions of the detector. Gluon radiation in the central-rapidity is suppressed thanks to the color-singlet nature of the weak-gauge boson exchange: this feature let to distinguish VBF from overwhelming QCD backgrounds including gluon-fusion induced Higgs + 2 jets production and production of H in association with a W or Z boson hadronically decaying. This process receive contributions at NLO from QCD and EW; QCD also contributes at NNLO.
 \subsubsection{Production mechanism: Higgs-strahlung}
 The next most relevant Higgs boson production mechanism is the Higgs-strahlung, the production of the Higgs boson with W or Z gauge bosons: $pp \to VH + X$ with $V = W^{\pm},Z$ (\figurename~\ref{Feynman_H_production}c). As in VBF, at NLO EW and QCD (due to corrections to the Drell-Yan cross section) give their contributions to this cross section. In addition, Higgs-strahlung receives non Drell-Yan-like conrrections in the $q\bar{q}$ channels where the Higgs is radiated off top-quarks loops.
-\subsubsection{Production mechanism: ttH}
-Higgs radiation off top quarks (\figurename~\ref{Feynman_H_production}d), $pp \to t\bar{t}H$, provides a direct probe of the top-Higgs Yukawa coupling.
+\subsubsection{Production mechanism: $t\bar{t}H$}
+Higgs radiation off top quarks (\figurename~\ref{Feynman_H_production}d), $pp \to t\bar{t}H$, provides a direct probe of the top-Higgs Yukawa coupling. On the 10th April 2018, CMS announced the observation of the production of the Higgs boson together with a top-quark pair \cite{ttH}.
 
 \subsection{The Higgs boson: decay channels}
 As reported in \figurename~\ref{Higgs_decay}, the dominant decay modes for the Higgs boson are $H \to b\bar{b}$, $H \to WW^{*}$ followed by $H \to \gamma \gamma$, $H \to \tau^{+}\tau^{-}$ and $H \to ZZ^{*}$;  \tablename~\ref{Higgs_decay_table} summarises the branching ratios and the relative uncertainty for these decay channels.
@@ -500,8 +500,9 @@ As reported in \figurename~\ref{Higgs_decay}, the dominant decay modes for the H
 	\label{Higgs_decay_table}
 \end{table}
 
-
-
+\section{Beyond Standard Model (BSM)}
+Though SM well describes Particle Physics, there are still some questions which it is not equipped to address: \eg it has no candidate for Dark Matter and it does not include a quantum theory of gravity; it does not have a satisfactory mechanism for generating neutrino masses and does not explain or stabilise the hierarchy of mass scales in physics. In order to try to solve these issues many models have been developed beyond standard model.\\
+The easiest way to extend the SM it with and additional U(1)' group with the associated Z' gauge boson.
 
 
 
