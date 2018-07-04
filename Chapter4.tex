@@ -1,8 +1,101 @@
 \selectlanguage{english}
-\chapter{Il Modello Standard e la Fisica del Bosone di Higgs}
-\label{Chapter1}
+\chapter{Search of high mass resonances}
+\label{Chapter4}
 %SourceDoc tesi.tex
 
-La fisica delle particelle elementari  una branca della fisica che si occupa dello studio dei costituenti elemetari della materia e delle loro interazioni fondamentali. I vari risultati ottenuti negli ultimi 50 anni di esperimenti portano al successo un unico modello teorico: il Modello Standard (MS) dell'interazioni elettrodeboli e forti delle particelle fondamentali. \\
+\section{Data and MC samples}
+\subsection{Data sets}
+For this analysis the full statistics of 2016 Run II has been used, corresponding to an integrated luminosity of $\mathcal{L} = 36.1~fb^{-1}$; the data sets analysed is the \textit{/SingleMuon} and are listed in ~\ref{table:Datasets} with the associated JSON file \textit{Cert\_271036-284044\_13TeV\_23Sep2016ReReco\_Collisions16\_JSON\_MuonPhys.txt}.
+\begin{table}[htb!]
+\begin{center}
+\begin{tabular}{|l|l|} \hline
+ Data set                              & Run range        \\ \hline \hline
+/SingleMuon/Run2016B-23Sep2016-v3      & 273150 -- 275376 \\ \hline
+/SingleMuon/Run2016X-23Sep2016-v1      & 275657 -- 279656 \\ \hline
+/SingleMuon/Run2016H-PromptReco-vY     & 281145 -- 284044 \\ \hline
+\end{tabular}
+\caption{Data sets used in this analysis were X stands for C, D, E, F, G, and Y stands for 1 to 3.}
+\label{table:Datasets}
+\end{center}
+\end{table}
+it is possible to divide the data sets in two range (from RunB to RunF and RunG plus  RunH) due to issues affected data taking:
+\begin{itemize}
+\item detector alignment: runs B to G have been reconstructed using asymptotic scenario and asymptotic APEs (\textbf{PARLA DEGLI APES})
+\item inner track degradation: before RunG has been observed a degradation in the inner track quality observed partially cured in the reconstruction (\textbf{REF AL PARAGRAFO DELLA RICOSTRUZIONE}); only runs G onward are immunized to this effect 
+\item Trigger Level 1: data taking period of run B to F the trigger level 1 was not fully efficient due to various changes in the new menu developed for 2016
+\end{itemize}
+\subsection{Monte Carlo samples}
+The simulated Monte Carlo (MC) background samples are generated for collisions at $\sqrt{s}$ = 13 TeV with the pile-up (PU) conditions expected for the Run2 data taking of about 20 and 30 collisions per bunch crossing spaced by 25 ns. They are reconstructed with asymptotic misalignment scenario and contain asymptotic APEs. The detector response is simulated using the GEANT4 package \cite{GEANT4}.\\
+In ~\ref{table:MCsamples} the list of samples, their correspondent cross section and the details about the generation parameters are reported. \\
+\begin{table}[htbp!]
+%\hspace*{-23mm}
+{\footnotesize
+\begin{tabular}{|l|l|l|r|}
+\hline
+Process                                                                                 & $\sigma$~(pb) & Order & Events \\ % & PDF set \\
+\hline\hline                                                                                                       %%%%%%%%%%%%
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_50\_120						&  1975      & NLO  &   2977600 \\ % 
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_120\_200                                               &  19.32     & NLO  &    100000 \\ %
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_200\_400                                               &  2.731     & NLO  &    100000 \\ %
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_400\_800                                               &  0.241     & NLO  &     98400 \\ %
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_800\_1400                                              &  1.678E-2  & NLO  &    100000 \\ %
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_1400\_2300                                             &  1.39E-3   & NLO  &     95106 \\ %
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_2300\_3500                                             &  0.8948E-4 & NLO  &    100000 \\ % 
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_3500\_4500                                             &  0.4135E-5 & NLO  &    100000 \\ %
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_4500\_6500                                             &  4.56E-7   & NLO  &    100000 \\ %
+ZToMuMu\_NNPDF30\_13TeV-powheg\_M\_6000\_Inf                                              &  2.06E-8   & NLO  &    100000 \\ %
+\hline
+DYJetsToLL\_M-50\_TuneCUETP8M1\_13TeV-amcatnloFXFX-pythia8                                & 5765.4     & NNLO &  29082237 \\% & CTEQ6M  \\
+\hline
+TTTo2L2Nu\_TuneCUETP8M2\_ttHtranche3\_13TeV-powheg-pythia8                                &  87.31     & NNLO &  79140880 \\ % &         \\
+TTToLL\_MLL\_500To800\_TuneCUETP8M1\_13TeV-powheg-pythia8                                 & 0.326      & NLO  &    200000 \\ % 76.6311 $\times$ 1.14 $\times$ 0.003733
+TTToLL\_MLL\_800To1200\_TuneCUETP8M1\_13TeV-powheg-pythia8                                & 3.26E-2    & NLO  &    199800 \\ % 76.6311 $\times$ 1.14 $\times$ 0.0003737 
+TTToLL\_MLL\_1200To1800\_TuneCUETP8M1\_13TeV-powheg-pythia8                               & 3.05E-3    & NLO  &    200000 \\ % 76.6311 $\times$ 1.14 $\times$ 0.00003494 
+TTToLL\_MLL\_1800ToInf\_TuneCUETP8M1\_13TeV-powheg-pythia8                                & 1.74E-4    & NLO  &     40829 \\ % 76.6311 $\times$ 1.14 $\times$ 0.000002001
+\hline
+ST\_tW\_top\_5f\_inclusiveDecays\_13TeV-powheg-pythia8\_TuneCUETP8M1                      &  35.6      & NNLO &   6952830 \\% & average of PDF sets  \\
+ST\_tW\_antitop\_5f\_inclusiveDecays\_13TeV-powheg-pythia                                 &  35.6      & NNLO &   6933094 \\% & average of PDF sets  \\
+\hline
+WWTo2L2Nu\_13TeV-powheg                                                                   & 12.178     & NNLO &  1999000 \\% & CT10  xsec=45.2, 10.48
+WWTo2L2Nu\_Mll\_200To600\_13TeV-powheg                                                    &  1.386     & NNLO &   200000 \\
+WWTo2L2Nu\_Mll\_600To1200\_13TeV-powheg                                                   &  5.6665E-2 & NNLO &   200000 \\
+WWTo2L2Nu\_Mll\_1200To2500\_13TeV-powheg                                                  &  3.557E-3  & NNLO &   200000 \\
+WWTo2L2Nu\_Mll\_2500ToInf\_13TeV-powheg                                                   &  5.395E-5  & NNLO &    38969 \\
+\hline
+WZ\_TuneCUETP8M1\_13TeV-pythia8                                                           &  47.13     & NLO  &  1000000 \\
+WZ\_TuneCUETP8M1\_13TeV-pythia8 (ext1)                                                    &  47.13     & NLO  &  2997571 \\
+\hline
+ZZ\_TuneCUETP8M1\_13TeV-pythia8                                                           &  16.523    & NLO  &   990064 \\
+ZZ\_TuneCUETP8M1\_13TeV-pythia8 (ext1)                                                    &  16.523    & NLO  &   998034 \\
+\hline
+WJetsToLNu\_TuneCUETP8M1\_13TeV-madgraphMLM-pythia8                                       &  61526     & NNLO & 29804825 \\ % x=60290-60780 xsec=60781.5, 60290
+\hline
+ZprimeToMuMu\_M-5000\_TuneCUETP8M1\_13TeV-pythia8                                         &  6.76E-5   & NLO  &   100000 \\ % 5.2E-5 * 1.3 = 6.76E-5 X
+\hline
+\end{tabular}
+}
+\caption{Summary of simulated background process samples for Moriond17 samples ({\tt RunIISummer16DR80Premix}).}
+%\label{tbl:mcsamplesMoriond}
+\label{table:MCsamples}
+\end{table}
+The dominant and irreducible SM background arises from Drell-Yan (DY) production ($Z/\gamma^*\to\mu^+\mu^-$): it is generated with POWHEG v2 \cite{NLO_1, NLO_2, NLO_3, NLO_4, NLO_5, NLO_6} from next-to-leading order (NLO) matrix elements using the NNPDF3.0 \cite{NNLO} PDFs, and with PYTHIA 8.205 \cite{PYTHIA} for parton showering and hadronization. All the DY binned in mass samples are multiplied by a k-factor to reach the NNLO precision and take into account the photon induced background. The $t\bar{t}$, tW and WW backgrounds are simulated using POWHEG v2, with parton showering and hadronization described by PYTHIA 8.205. The NNPDF3.0 PDFs are used for all these samples. The $t\bar{t}$ cross section is calculated at NNLO with TOP++ [43] assuming a top quark mass of 172.5 GeV. The inclusive diboson processes WZ, and ZZ are simulated at leading order (LO) using the PYTHIA 8.205 program along with the NNPDF3.0 PDFs. For $t\bar{t}$ and WW samples data sets binned in mass $M_{ll}$ of pairs of leptons for large $M_{ll}$ values are used ($M_{ll} >$ 500 GeV and $M_{ll} >$ 200GeV, respectively): this allows to avoid large spikes at the large dimuon masses from these MC samples.
+The production of DY $\tau^+\tau^-$ (simulated from the inclusive DY sample) and W+jets is simulated at LO with the MADGRAPH5 aMC@NLO version 2.2.2 \cite{MADGRAPH} program. The PDFs are evaluated using the LHAPDF library \cite{PDFS_1,  PDFS_2, PDFS_3}.
+
+\section{Trigger}
+\subsection{L1 Trigger}
+The L1 trigger path used is the OR between \textit{L1\_SingleMu22} and \textit{L1\_SingleMu25}. 
+The L1 trigger system has since been upgraded from 2015; this meant that the data CMS recorded for a large portion of 2016 was during a commissioning period for the new L1 Muon Trigger System and various changes occurred during the data-taking:
+\begin{itemize}
+\item From Run 273423 a fix to the L1 Barrel Muon Track Finder (BMTF) was introduced which corrected an inefficiency in $\lvert \eta \lvert<0.3$. 94 pb$^{-1} $ have been collected without this fix.
+\item The largest issue in the L1 muon triggering system came from a misconfiguration in the Endcap Muon Track Finder (EMTF).
+During the data taking period with the misconfiguration, which corresponds to 15.4 fb$^{-1} $, if two muons were in the same endcap and in the same sector then only one of the muons would fire the trigger. This has implications in trying to calculate the trigger efficiency using the Tag and Probe method when the two muons are in the endcap.
+Muon POG/HLT recommends to not consider events with two muons close by less than 0.7 in $\Delta \phi$ while doing TnP. The EMTF misconfiguration was fixed from Run 277166 onwards.
+\item RPC were not part of the trigger system and were added at the end of run H during some run periods: from Run 282917 to Run 282924 and from Run 283820 to Run 284078. RPC are known to have a more precise timing than DT or CSC but a less accurate pT assignment.
+\end{itemize}
+The L1 efficiency is usually measured together with HLT triggers as a single trigger efficiency covering the full trigger path. It can be found in section \textbf{REF A PARAGRAFO HLT} for dimuon events.
+\subsection{HLT]
+
+
+
 
 

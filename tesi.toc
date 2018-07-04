@@ -49,4 +49,11 @@
 \contentsline {chapter}{\numberline {3}Object reconstruction in CMS}{41}{chapter.3}
 \contentsline {section}{\numberline {3.1}Photons}{41}{section.3.1}
 \contentsline {section}{\numberline {3.2}Electrons}{42}{section.3.2}
-\contentsline {chapter}{Bibliography}{44}{section.3.2}
+\select@language {english}
+\contentsline {chapter}{\numberline {4}Search of high mass resonances}{45}{chapter.4}
+\contentsline {section}{\numberline {4.1}Data and MC samples}{45}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Data sets}{45}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Monte Carlo samples}{46}{subsection.4.1.2}
+\contentsline {section}{\numberline {4.2}Trigger}{47}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}L1 Trigger}{47}{subsection.4.2.1}
+\contentsline {chapter}{Bibliography}{48}{subsection.4.2.1}
